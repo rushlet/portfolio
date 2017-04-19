@@ -1,0 +1,300 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<title>Rushlet | Web Design and Development | Portfolio</title>
+<meta name="description" content="Meet Becky Rush, a Brighton based web design and developer utilizing HTML, CSS and JavaScript to create your awesome new website.">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="stylesheet" type="text/css" href="css/normalize.css"></link>
+<link rel="stylesheet" type="text/css" href="css/testimonials.css"></link>
+<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+<link rel="stylesheet" type="text/css" href="css/nav.css"></link>
+<link rel="stylesheet" type="text/css" href="css/filter.css"></link>
+<link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700|Open+Sans' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/responsive-nav.js"></script>
+<script type="text/javascript" src="js/testimonials.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+
+<script src="js/jquery.mixitup.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<header>
+      <a href="#intro" class="logo" data-scroll><img class="logo" alt="logo" src="img/logo_web_white.png"></a>
+       <nav class="nav-collapse">
+         <ul>
+			<li class="menu-item"><a href="index.html#intro" data-scroll>Home</a></li>
+			<li class="menu-item"><a href="index.html#about" data-scroll>About</a></li>
+			<li class="menu-item"><a href="index.html#portfolio" data-scroll>Portfolio</a></li>
+			<li class="menu-item"><a href="index.html#testimonials" data-scroll>Testimonials</a></li>
+			<li class="menu-item"><a href="index.html#contact" data-scroll>Contact</a></li>
+			<li class="menu-item"><a href="http://itsuite.it.brighton.ac.uk/rlr17/blog">Blog</a></li>
+         </ul>
+       </nav>
+     </header>
+<body>
+
+
+
+<div id="wrapper">
+<section id = "intro">
+<div class="container">
+<h1 class="introText">Rushlet</h1>
+<h2 class="introText">Web Design & Developer</h2>
+<h3 class="introText">Based in Brighton, UK</h3>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<h2>About Me</h2>
+<div class="aboutContent">
+<p>I am an inquisitive, hardworking and creative individual with a strong interest in digital media, both design and production.
+<br><br>
+I study Digital Media Development at the University of Brighton, developing my skills across a variety of computing disciplines.
+<br><br>
+I specialise in Front End Web Development, tinkering with <span class="skills">HTML, CSS</span> and <span class="skills">JavaScript</span> to produce awesome websites.
+<br>I also have skills in <span class="skills">WordPress, Design, Photoshop, Copy Writing, Blogging, PHP, SQL and Java.</span><br>
+<br></p>
+
+</div>
+<div class="aboutContent">
+<img id="me" alt="about me" src="img/me_3.png">
+</div>
+
+<ul class="aboutbtn">
+<li><a href="img/graphicCV.png" target="_blank">See my Graphical CV</a></li>
+<li><a href="https://github.com/rushlet" target="_blank">Visit my GitHub</a></li>
+<li><a href="http://itsuite.it.brighton.ac.uk/rlr17/blog" target="_blank">Check out my Blog</a></li>
+</ul>
+</div>
+
+</section>
+
+<section id = "portfolio">
+<div class="container">
+<h2>Portfolio</h2>
+<div id="portfolioContent">
+<ul id="filter-list" class="clearfix">
+  <li class="filter" data-filter="all">All</li>
+  <li class="filter" data-filter="webdesign">Web Design</li>
+  <li class="filter" data-filter="webdevelopment">Web Development</li>
+  <li class="filter" data-filter="javascript">Javascript</li>
+  <li class="filter" data-filter="misc">Miscellaneous</li>
+</ul><!-- @end #filter-list -->
+<ul id="portfolioGrid">
+    <li class="example javascript webdevelopment">
+        <a href="trumpTalk.html">
+            <div class="overlay">
+                <p>BBC Interactive: What has Trump said about your country?<br>Find out More</p>
+                <img class="portfolioImage" alt="" src="img/bbc-trump-talk.png">
+            </div>
+        </a>
+    </li>
+    <li class="example javascript webdevelopment">
+        <a href="whichWorldLeder.html">
+            <div class="overlay">
+                <p>BBC Interactive: Which world leader are you?<br>Find out More</p>
+                <img class="portfolioImage" alt="" src="img/bbc-world-leaders.png">
+            </div>
+        </a>
+    </li>
+    <li class="example javascript webdevelopment webdesign">
+        <a href="upForIt.html">
+            <div class="overlay">
+                <p>Up For It? A client's portfolio<br>Find out More</p>
+                <img class="portfolioImage" alt="" src="img/up-for-it.png">
+            </div>
+        </a>
+    </li>
+    <li class="example javascript webdevelopment">
+        <a href="wildThings.html">
+            <div class="overlay">
+                <p>Wild Things: A group portfolio<br>Find out More</p>
+                <img class="portfolioImage" alt="" src="img/wild-things.png">
+            </div>
+        </a>
+    </li>
+		<li class="example webdesign webdevelopment">
+		<a href="sweetSubscriptions.html">
+		<div class="overlay">
+				<p>Sweet Subscriptions Website<br>Find out More</p>
+		<img class="portfolioImage" alt="sweet subscriptions" src="img/sweetsubscriptions.png">
+		</div></a>
+		</li>
+        <li class="example javascript misc">
+		<a href="emailClient.html">
+			<div class="overlay">
+				<p>JavaScript Email Client<br>Find out More</p>
+		<img class="portfolioImage" alt="email client" src="img/emailClient.png">
+		</div></a>
+		</li>
+		<li class="example webdesign webdevelopment">
+		<a href="sweetDeliveries.html">
+			<div class="overlay">
+				<p>Sweet Deliveries eCommerce Site<br>Find out More</p>
+		<img class="portfolioImage" alt="sweet deliveries" src="img/sweetdeliveries.png">
+		</div></a>
+		</li>
+		<li class="example javascript webdevelopment misc">
+		<a href="bookClub.html">
+			<div class="overlay">
+				<p>Interactive Book Club<br>Find out More</p>
+		<img class="portfolioImage" alt="interactive book club" src="img/bookClub.png">
+		</div></a>
+		</li>
+		<li class="example webdesign misc">
+		<a href="pebble.html">
+			<div class="overlay">
+				<p>Flat Website Design<br>Find out More</p>
+		<img class="portfolioImage" alt="website design" src="img/pebble.png">
+		</div></a>
+		</li>
+</ul><!-- @end #portfolioGrid -->
+</div>
+</div>
+
+</section>
+
+
+
+<section id="testimonials">
+<div class="container">
+<h2>Testimonials</h2>
+                <div class="cd-testimonials-wrapper cd-container">
+                    <ul class="cd-testimonials">
+                        <li>
+                            <p>"Becky is a wonderful person to work with and
+                            has been a great asset to all of the city event
+                            projects we have delivered. She is a natural
+                            problem solver and has shown a clear understanding
+                            of our needs as well as providing clever solutions
+                            when needed. She rocks!"</p>
+
+                            <div class="cd-author">
+                                <img alt="Author image" src="img/mat.jpg">
+
+                                <ul class="cd-author-info">
+                                    <li><a href="https://uk.linkedin.com/in/mat-cook-ab358b2b" target="_blank">Mat Cook</a></li>
+
+                                    <li>Director<br>CooktheRabbit Events</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <p>"Accurate and creative work not usually found in
+                            one so young"</p>
+
+                            <div class="cd-author">
+                                <img alt="Author image" src="img/vince.jpg">
+
+                                <ul class="cd-author-info">
+                                    <li><a href="https://uk.linkedin.com/in/vince-sears-93773916" target="_blank">Vince Sears</a></li>
+
+                                    <li>Chairman<br>Field Marketing
+                                    Solutions</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <p>"Rebecca was fundamental in the construction of
+                            many of our promotions and would make an excellent
+                            addition to any team."</p>
+
+                            <div class="cd-author">
+                                <img alt="Author image" src="img/jonathan.jpg">
+
+                                <ul class="cd-author-info">
+                                    <li><a href="https://uk.linkedin.com/in/jonathan-hitchens-06963412" target="_blank">Jonathan Hitchens</a></li>
+
+                                    <li>CEO<br>TMC</li>
+                                </ul>
+                            </div>
+                        </li>
+            <li>
+                        	<p>"Becky is a joy to work with"</p>
+
+				<div class="cd-author">
+					<img src="img/ross.jpg" alt="Author image">
+					<ul class="cd-author-info">
+						<li><a href="https://nl.linkedin.com/in/rosss" target="_blank">Ross Sampson</a></li>
+						<li>Founder<br>RSS Solutions</li>
+					</ul>
+				</div> <!-- cd-author -->
+			</li>
+			            <li>
+                        	<p>"Working with Becky to develop my website has been a really useful and positive experience.  I found her to be patient and attentive to what I wanted from the website.
+ I don't have a technical background so I was reassured by her use of simple, but not patronizing, language to explain to me what she was doing and if and how things may or many not work."</p>
+
+				<div class="cd-author">
+					<img src="img/elsie.jpg" alt="Author image">
+					<ul class="cd-author-info">
+						<li><a href="https://uk.linkedin.com/in/elsie-whittington-5785333b" target="_blank">Elsie Whittington</a></li>
+						<li>PhD Student<br>Sussex University</li>
+					</ul>
+				</div> <!-- cd-author -->
+			</li>
+                    </ul><!-- cd-testimonials -->
+                </div><!--cd-testimonials-wrapper-->
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<h2>Contact Me</h2>
+<p>Contact me to discuss a project you want to work on or just to say hi! </p>
+<div class="contactContent">
+<body>
+<form action="contact.php" method="post">
+<input type="text" name="cf_name" placeholder="Your Name"><br>
+    <input type="text" name="cf_email" placeholder="Your Email"><br>
+    <textarea name="cf_message" placeholder="Your Message"></textarea><br>
+	<input class="contactbtn" type="submit" value="Send">
+	<input class="contactbtn" type="reset" value="Clear">
+</form>
+<a href="http://twitter.com/rushlet_"><img class="socialMedia" src="img/socialMedia/twitter.png" alt="Follow me on Twitter"></a>
+<a href="https://uk.linkedin.com/in/rushlet"><img class="socialMedia" src="img/socialMedia/linkedin.png" alt="Connect with me on LinkedIn"></a>
+</div>
+</div>
+</section>
+
+</div>
+<div id="divider">
+</div>
+
+<footer>
+<p id="copyright" >&copy;Rushlet 2016</p>
+<p id="details">
+<a href="http://itsuite.it.brighton.ac.uk/rlr17/blog">Visit my blog</a> to see the latest things I'm up to!</p>
+</footer>
+  <script src="js/modernizr-custom.js"></script>
+  <script src="js/fastclick.js"></script>
+ <script src="js/fixed-responsive-nav.js"></script>
+</body>
+
+	<script>
+	$(function(){
+  $('#portfolio').mixitup({
+    targetSelector: '.example',
+    transitionSpeed: 450
+  });
+});
+	</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76578425-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

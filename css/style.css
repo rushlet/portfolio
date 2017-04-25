@@ -71,14 +71,12 @@ h3.introText{
     margin-top: 0.2em;
 }
 a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
     margin: 2em;
     padding: 0.5em;
     text-decoration: none;
     color: #fff;
     background-color: #4593BF;
+    font-weight: lighter;
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -198,7 +196,7 @@ section{
     padding-bottom: 1em;
 }
 .headimage{
-    max-width: 95%;
+    max-width: 60%;
 }
 #textSection{
     font-family: 'Open Sans', sans-serif;
@@ -206,14 +204,17 @@ section{
     font-size: 1rem
 }
 #portfolioPage article {
-    -webkit-columns: 2 300px;
-    -moz-columns: 2 300px;
-    columns: 2 300px;
-    max-width: 90%;
+    /*-webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;*/
+    max-width: 50%;
+    display: block;
     overflow-x: hidden;
     margin: 0.25em auto;
     padding-bottom: 1em;
-    text-align: left;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 1.3;
 }
 
 /********************* contact form ******************/

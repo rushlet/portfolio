@@ -27,11 +27,15 @@ header {
 }
 
 .logo {
-    height: 3.5em;
+    height: 50px;
     padding: 0.2em 1em;
     z-index: 5;
     float: left;
     position: relative;
+}
+
+.nav-collapse li {
+    font-size: 18px;
 }
 
 /***Text***/
@@ -317,7 +321,7 @@ textarea{
         width: 25%;
     }
     #me{
-        width: 40%;
+        width: 30%;
     }
     .socialMedia {
         width: 10%;}

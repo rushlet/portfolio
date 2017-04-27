@@ -35,7 +35,7 @@ header {
 }
 
 .nav-collapse li {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /***Text***/
@@ -145,6 +145,9 @@ section{
     margin-left: auto;
     margin-right:auto;
 }
+.aboutContent ul {
+    padding: 0 20;
+}
 .aboutbtn li{
     display: block;
     background-color: rgb(69, 147, 191);
@@ -160,8 +163,9 @@ section{
     background-color: rgb(17, 122, 172);
 }
 #me{
-    width: 70%;
+    width: 50%;
 }
+
 
 .example {
     list-style: none;
@@ -268,10 +272,15 @@ textarea{
 }
 /*****For Medium Screens*****/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 805px) {
     p{
         font-size: 1rem;
     }
+
+    .nav-collapse li {
+        font-size: 18px;
+    }
+
     .cd-testimonials li p{
         font-size: 1.2em;
         padding-bottom: 0.5em;

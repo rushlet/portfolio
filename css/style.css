@@ -291,6 +291,13 @@ textarea{
         font-size: 18px;
         max-width: 85%;
     }
+    #me {
+        width: 40%;
+    }
+
+    .aboutbtn li {
+        display: inline-block;
+    }
 }
 
 @media only screen and (min-width: 805px) {
@@ -347,7 +354,7 @@ textarea{
     }
     .aboutContent p{
         padding: 2em;
-        width: 45%;
+        width: 50%;
         display: inline;
         float: left;
     }
@@ -415,6 +422,10 @@ textarea{
         }
         p{
             font-size: 1.25em;
+        }
+        .aboutContent p {
+            width: 45%;
+            font-size: 18px;
         }
         #portfolio{
             padding-bottom: 4em;

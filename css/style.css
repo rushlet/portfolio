@@ -11,7 +11,7 @@ body{
     font-family: 'existence', verdana, sans-serif;
     font-size: 16px;
     font-weight:bold;
-    color: #6a6a6a;
+    color: #414752;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -177,7 +177,7 @@ section{
 
 .portfolioImage {
     width: 90%;
-    border: solid #6a6a6a;
+    border: solid #414752;
 }
 .contactContent{
     width: 90%;

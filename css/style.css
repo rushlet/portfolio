@@ -115,8 +115,8 @@ p{
 footer {
     background: #4593BF;
     color: #fff;
-    padding: 1em;
-    line-height: 1.2em;
+    padding: 1rem;
+    line-height: 1.2rem;
     position: relative;
 }
 footer a{
@@ -182,7 +182,7 @@ section{
 .contactContent{
     width: 90%;
     vertical-align: center;
-    padding: 2em;
+    padding: 0 2em;
 }
 #relatedSection h4{
     font-size: 24px;
@@ -403,7 +403,7 @@ textarea{
     }
     /*****For Larger Screens*****/
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1200px) {
         #intro{
             height: 90%;
         }
@@ -429,6 +429,10 @@ textarea{
         }
         #portfolio{
             padding-bottom: 4em;
+        }
+        #portfolioPage h2 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
         }
 
         #portfolioPage article {
@@ -500,7 +504,7 @@ textarea{
         }
 
         .socialMedia {
-            width: 10%;
+            width: 8%;
         }
 
 

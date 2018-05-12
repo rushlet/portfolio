@@ -353,7 +353,8 @@ textarea{
         position: relative;
     }
     .aboutContent p{
-        padding: 2em;
+        padding: 0 2em;
+        text-align: left;
         width: 50%;
         display: inline;
         float: left;
@@ -367,43 +368,49 @@ textarea{
         width: 30%;
     }
     .socialMedia {
+        width: 8%;
+    }
+
+    footer #copyright{
+        float: left;
+        font-size: 1rem;
+        vertical-align: center;
+    }
+    footer #details{
+        font-size: 1rem;
+        text-align: right;
+    }
+
+    .aboutbtn li{
+        display: inline;
+        background-color: rgb(69, 147, 191);
+        padding: 0.5em 1em;
+        margin: 0.2em 1em 0.5em;
+
+    }
+    form{
+        font-size: 1.2em;
+    }
+    input, textarea {
+        width: 40%;
+        padding: 0.2em;
+    }
+    textarea{
+        height: 20%;
+    }
+    .contactbtn{
         width: 10%;
     }
+}
 
-        footer #copyright{
-            float: left;
-            font-size: 1rem;
-            vertical-align: center;
-        }
-        footer #details{
-            font-size: 1rem;
-            text-align: right;
-        }
-
-        .aboutbtn li{
-            display: inline;
-            background-color: rgb(69, 147, 191);
-            padding: 0.5em 1em;
-            margin: 0.2em 1em 0.5em;
-
-        }
-        form{
-            font-size: 1.2em;
-        }
-        input, textarea {
-            width: 40%;
-            padding: 0.2em;
-        }
-        textarea{
-            height: 20%;
-        }
-        .contactbtn{
-            width: 10%;
-        }
+@media only screen and (min-width: 805px) and (max-width: 900px) {
+    .aboutContent ul {
+        padding-top: 3em;
     }
+}
     /*****For Larger Screens*****/
 
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 1000px) {
         #intro{
             height: 90%;
         }
@@ -421,11 +428,12 @@ textarea{
             color: #fff;
         }
         p{
-            font-size: 1.25em;
+            font-size: 1.7em;
         }
         .aboutContent p {
             width: 45%;
             font-size: 18px;
+            padding: 2em;
         }
         #portfolio{
             padding-bottom: 4em;
@@ -465,7 +473,11 @@ textarea{
         }
 
         .socialMedia {
-            width: 10%;
+            width: 8%;
+        }
+
+        #contact p {
+            font-size: 1.25em;
         }
 
     }

@@ -1,5 +1,5 @@
 # Hi, I'm Becky.
-Inspired by other Developer ReadMes, I decided to make my own. 
+Inspired by other Developer READMEs, I decided to make my own. 
 This document exists in the hopes of optimising how we work together, because I really do want to work with/for you in the best way for both of us. 
 It should also give you a bit of insight about what makes me tick as a human.
 

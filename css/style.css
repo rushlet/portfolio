@@ -115,7 +115,7 @@ p{
 footer {
     background: #4593BF;
     color: #fff;
-    padding: 1rem;
+    padding: 0 1rem 3.5rem;
     line-height: 1.2rem;
     position: relative;
 }
@@ -128,7 +128,7 @@ section{
     padding: 1em 2em 2em;
 }
 .container{
-    width: 95%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -152,6 +152,12 @@ section{
 .aboutContent ul {
     padding: 0 20;
 }
+
+.aboutContent .highlight {
+    display: block;
+    font-size: 1.5em;
+}
+
 .aboutbtn li{
     display: block;
     background-color: rgb(69, 147, 191);
@@ -379,6 +385,7 @@ textarea{
     footer #details{
         font-size: 1rem;
         text-align: right;
+        display: none;
     }
 
     .aboutbtn li{
@@ -427,13 +434,12 @@ textarea{
             font-weight: lighter;
             color: #fff;
         }
-        p{
+        p {
             font-size: 1.7em;
         }
         .aboutContent p {
             width: 45%;
             font-size: 18px;
-            padding: 2em;
         }
         #portfolio{
             padding-bottom: 4em;

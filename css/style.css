@@ -1,16 +1,17 @@
-
 @font-face {
     font-family: 'DroidSans', sans-serif;
     src: url(../font/DroidSans-webfont.ttf);
 }
+
 @font-face {
     font-family: 'existence';
     src: url(../font/Existence-Light.ttf);
 }
-body{
+
+body {
     font-family: 'existence', verdana, sans-serif;
     font-size: 16px;
-    font-weight:bold;
+    font-weight: bold;
     color: #414752;
     margin: 0;
     padding: 0;
@@ -43,17 +44,17 @@ a {
 }
 
 /***Text***/
-h1{
+h1 {
     font-size: 3em;
 }
 
-h2{
+h2 {
     font-size: 2em;
     padding: 0.1em;
     margin-bottom: 0;
 }
 
-h1.introText{
+h1.introText {
     font-size: 4em;
     line-height: 0.2em;
     color: #fff;
@@ -61,7 +62,8 @@ h1.introText{
     padding-top: 2em;
     margin: 1em 0.2em 0.1em;
 }
-h2.introText{
+
+h2.introText {
     font-size: 2em;
     line-height: 1.2em;
     font-weight: lighter;
@@ -70,7 +72,7 @@ h2.introText{
     margin-bottom: 0.2em;
 }
 
-h3.introText{
+h3.introText {
     font-size: 1.5em;
     line-height: 1.3em;
     font-weight: lighter;
@@ -78,6 +80,7 @@ h3.introText{
     position: relative;
     margin-top: 0.2em;
 }
+
 a.button {
     margin: 2em;
     padding: 0.5em;
@@ -86,7 +89,8 @@ a.button {
     background-color: #4593BF;
     font-weight: lighter;
 }
-p{
+
+p {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 1rem;
@@ -95,18 +99,18 @@ p{
     display: block;
 }
 
-.cd-testimonials p{
+.cd-testimonials p {
     font-size: 0.8em;
     padding-bottom: 1em;
     margin: 0em;
 }
 
-.skills{
+.skills {
     font-weight: bold;
 }
 
 /* menu */
-.menu-item a:hover{
+.menu-item a:hover {
     text-decoration: underline;
 }
 
@@ -119,36 +123,40 @@ footer {
     line-height: 1.2rem;
     position: relative;
 }
-footer a{
+
+footer a {
     color: #fff;
 }
+
 /**Layout**/
-section{
+section {
     border-bottom: 1px solid #d8d8d8;
     padding: 1em 2em 2em;
 }
-.container{
+
+.container {
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#intro{
+#intro {
     background: url(../img/backgroundnt.png) no-repeat right;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
-#about{
 
-}
-.aboutContent{
+#about {}
+
+.aboutContent {
     width: 90%;
     display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }
+
 .aboutContent ul {
     padding: 0 20;
 }
@@ -158,21 +166,23 @@ section{
     font-size: 1.5em;
 }
 
-.aboutbtn li{
+.aboutbtn li {
     display: block;
     background-color: rgb(69, 147, 191);
     padding: 0.5em 1em;
     margin: 0.2em 1em 0.5em;
 }
-.aboutbtn a{
+
+.aboutbtn a {
     color: #fff;
     text-decoration: none;
 }
 
-.aboutbtn li:hover{
+.aboutbtn li:hover {
     background-color: rgb(17, 122, 172);
 }
-#me{
+
+#me {
     width: 50%;
 }
 
@@ -185,52 +195,61 @@ section{
     width: 90%;
     border: solid #414752;
 }
-.contactContent{
+
+.contactContent {
     width: 90%;
     vertical-align: center;
     padding: 0 2em;
 }
-#relatedSection h4{
+
+#relatedSection h4 {
     font-size: 24px;
     margin-bottom: 0;
 }
 
-#relatedSection img{
+#relatedSection img {
     text-decoration: none;
     border: solid #414752;
 }
 
-#relatedSection img:hover{
+#relatedSection img:hover {
     border-color: #285066;
 }
 
 /****PORTFOLIO PAGES****/
-#portfolioPage{
+#portfolioPage {
     padding-top: 3em;
 }
-#portfolioPage section{
+
+#portfolioPage section {
     padding-bottom: 1.5em;
 }
-#portfolioPage h2{
+
+#portfolioPage h2 {
     font-size: 1.8em;
     padding: 0.5em;
 }
+
 #portfolioPage ul {
     list-style: none;
     padding: 1em 2em;
 }
+
 #portfolioPage li {
     list-style: none;
     padding-bottom: 1em;
 }
-.headimage{
+
+.headimage {
     max-width: 95%;
 }
-#textSection{
+
+#textSection {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 1rem
 }
+
 #portfolioPage article {
     display: block;
     overflow-x: hidden;
@@ -243,18 +262,22 @@ section{
 
 /********************* contact form ******************/
 
-form{
+form {
     font-size: 1.2em;
 }
-input, textarea {
+
+input,
+textarea {
     width: 90%;
     margin-bottom: 1em;
     padding: 0.2em;
 }
-textarea{
+
+textarea {
     height: 40%;
 }
-.contactbtn{
+
+.contactbtn {
     color: #fff;
     display: inline;
     background-color: rgb(69, 147, 191);
@@ -290,13 +313,16 @@ textarea{
         font-size: 2.5em;
         margin-bottom: 0.5em;
     }
-    .headimage{
+
+    .headimage {
         max-width: 85%;
     }
+
     #portfolioPage article {
         font-size: 18px;
         max-width: 85%;
     }
+
     #me {
         width: 40%;
     }
@@ -307,7 +333,7 @@ textarea{
 }
 
 @media only screen and (min-width: 805px) {
-    p{
+    p {
         font-size: 1rem;
     }
 
@@ -315,35 +341,39 @@ textarea{
         font-size: 18px;
     }
 
-    .cd-testimonials li p{
+    .cd-testimonials li p {
         font-size: 1.2em;
         padding-bottom: 0.5em;
         margin: 0.2em;
     }
-    .example{
+
+    .example {
         display: inline;
     }
 
-    .portfolioImage{
+    .portfolioImage {
         width: 40%;
         border: solid;
         display: inline;
     }
+
     #portfolioPage article {
         max-width: 65%;
         font-size: 18px;
     }
-    .headimage{
+
+    .headimage {
         max-width: 80%;
     }
 
-    h1.introText{
+    h1.introText {
         font-size: 6em;
         line-height: 0.2em;
         color: #fff;
         font-weight: lighter;
     }
-    h2.introText{
+
+    h2.introText {
         font-size: 3em;
         line-height: 1.2em;
         font-weight: lighter;
@@ -351,14 +381,15 @@ textarea{
 
     }
 
-    h3.introText{
+    h3.introText {
         font-size: 2.5em;
         line-height: 1em;
         font-weight: lighter;
         color: #fff;
         position: relative;
     }
-    .aboutContent p{
+
+    .aboutContent p {
         padding: 0 2em;
         text-align: left;
         width: 50%;
@@ -366,46 +397,54 @@ textarea{
         float: left;
     }
 
-    .aboutContent img{
+    .aboutContent img {
         display: inline;
         width: 25%;
     }
-    #me{
+
+    #me {
         width: 30%;
     }
+
     .socialMedia {
         width: 8%;
     }
 
-    footer #copyright{
+    footer #copyright {
         float: left;
         font-size: 1rem;
         vertical-align: center;
     }
-    footer #details{
+
+    footer #details {
         font-size: 1rem;
         text-align: right;
         display: none;
     }
 
-    .aboutbtn li{
+    .aboutbtn li {
         display: inline;
         background-color: rgb(69, 147, 191);
         padding: 0.5em 1em;
         margin: 0.2em 1em 0.5em;
 
     }
-    form{
+
+    form {
         font-size: 1.2em;
     }
-    input, textarea {
+
+    input,
+    textarea {
         width: 40%;
         padding: 0.2em;
     }
-    textarea{
+
+    textarea {
         height: 20%;
     }
-    .contactbtn{
+
+    .contactbtn {
         width: 10%;
     }
 }
@@ -415,167 +454,189 @@ textarea{
         padding-top: 3em;
     }
 }
-    /*****For Larger Screens*****/
 
-    @media only screen and (min-width: 1000px) {
-        #intro{
-            height: 90%;
-        }
-        h1.introText{
-            font-size: 8em;
-            line-height: 0.2em;
-            color: #fff;
-            font-weight: lighter;
-            padding-top: 1.2em;
-        }
-        h2.introText{
-            font-size: 3em;
-            line-height: 1em;
-            font-weight: lighter;
-            color: #fff;
-        }
-        p {
-            font-size: 1.7em;
-        }
-        .aboutContent p {
-            width: 45%;
-            font-size: 18px;
-        }
-        #portfolio{
-            padding-bottom: 4em;
-        }
-        #portfolioPage h2 {
-            font-size: 2em;
-            margin-bottom: 0.5em;
-        }
+/*****For Larger Screens*****/
 
-        #portfolioPage article {
-            max-width: 90%;
-            font-size: 18px;
-            -moz-column-count: 2;
-            -webkit-column-count: 2;
-            column-count: 2;
-            -moz-column-gap: 32px;
-            -webkit-column-gap: 32px;
-            column-gap: 32px;
-            margin-bottom: 1em;
-        }
-        .headimage {
-            width: 60%;
-        }
-
-        .wrapper {
-            position: relative;
-            width: 768px;
-            margin: auto;
-        }
-
-        .example{
-            display: inline;
-        }
-
-        .portfolioImage{
-            width: 30%;
-            border: solid
-        }
-
-        .socialMedia {
-            width: 8%;
-        }
-
-        #contact p {
-            font-size: 1.25em;
-        }
-
+@media only screen and (min-width: 1000px) {
+    #intro {
+        height: 90%;
     }
 
-    /*****Really big screens***/
-    @media only screen and (min-width: 1400px) {
-        body{
-            font-size: 1.5em;
-        }
-
-        #textSection{
-            height: 40%;
-            font-size: 1em;
-        }
-        .aboutContent{
-            width: 90%;
-            display: block;
-            margin: 0 auto;
-        }
-        #me{
-            width: 20%;
-        }
-        .container{
-            vertical-align: center;
-        }
-
-        p{
-            font-size: 1em;
-            padding-bottom: 0;
-        }
-
-        .aboutbtn {
-            margin-top: 0;
-            font-size: 1.4rem;
-            clear: both;
-        }
-
-        .socialMedia {
-            width: 8%;
-        }
-
-
+    h1.introText {
+        font-size: 8em;
+        line-height: 0.2em;
+        color: #fff;
+        font-weight: lighter;
+        padding-top: 1.2em;
     }
 
-    /******** IE 10 + ***********/
-
-    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-        #testimonials{
-            font-size: 1em;
-
-        }
-        #portfolio{
-            overflow-y: scroll;
-        }
+    h2.introText {
+        font-size: 3em;
+        line-height: 1em;
+        font-weight: lighter;
+        color: #fff;
     }
 
+    p {
+        font-size: 1.7em;
+    }
 
+    .aboutContent p {
+        width: 45%;
+        font-size: 18px;
+    }
 
-    /*******Hover effect portfolio*******/
+    #portfolio {
+        padding-bottom: 4em;
+    }
 
-    #portfolioGrid .overlay {
-        display:inline-block;
+    #portfolioPage h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    #portfolioPage article {
+        max-width: 90%;
+        font-size: 18px;
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+        -moz-column-gap: 32px;
+        -webkit-column-gap: 32px;
+        column-gap: 32px;
+        margin-bottom: 1em;
+    }
+
+    .headimage {
+        width: 60%;
+    }
+
+    .wrapper {
         position: relative;
-    }
-    #portfolioGrid .overlay p{
-        font-size:0.8em;
-        padding: 0.2em 0.1em 1em;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        height: 20%;
-        color: white;
-        position: absolute;
-        z-index: 25;
-        opacity: 0;
-    }
-    #portfolioGrid .overlay:after {
-        opacity: 0;
-    }
-    #portfolioGrid .overlay:hover p {
-        opacity: 1;
-        background-color: rgba(69, 147, 191,0.9);
+        width: 768px;
+        margin: auto;
     }
 
-    .cd-testimonials p {
-        font-size: 0.8em;
-        padding-bottom: 1em;
-        margin: 0em;
+    .example {
+        display: inline;
     }
-    /* *************** Testimonials ************ */
-    .flex-direction-nav{
-        list-style: none;
+
+    .portfolioImage {
+        width: 30%;
+        border: solid
     }
+
+    .socialMedia {
+        width: 8%;
+    }
+
+    #contact p {
+        font-size: 1.25em;
+    }
+
+}
+
+/*****Really big screens***/
+@media only screen and (min-width: 1400px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    #textSection {
+        height: 40%;
+        font-size: 1em;
+    }
+
+    .aboutContent {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #me {
+        width: 20%;
+    }
+
+    .container {
+        vertical-align: center;
+    }
+
+    p {
+        font-size: 1em;
+        padding-bottom: 0;
+    }
+
+    .aboutbtn {
+        margin-top: 0;
+        font-size: 1.4rem;
+        clear: both;
+    }
+
+    .socialMedia {
+        width: 8%;
+    }
+
+
+}
+
+/******** IE 10 + ***********/
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    #testimonials {
+        font-size: 1em;
+
+    }
+
+    #portfolio {
+        overflow-y: scroll;
+    }
+}
+
+
+
+/*******Hover effect portfolio*******/
+
+#portfolioGrid .overlay {
+    display: inline-block;
+    position: relative;
+}
+
+#portfolioGrid .overlay p {
+    font-size: 0.8em;
+    padding: 0.2em 0.1em 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 20%;
+    color: white;
+    position: absolute;
+    z-index: 25;
+    opacity: 0;
+}
+
+#portfolioGrid .overlay:after {
+    opacity: 0;
+}
+
+#portfolioGrid .overlay:hover p {
+    opacity: 1;
+    background-color: rgba(69, 147, 191, 0.9);
+}
+
+#portfolioGrid .example.core-content {
+    display: inline-block;
+    opacity: 1;
+}
+
+.cd-testimonials p {
+    font-size: 0.8em;
+    padding-bottom: 1em;
+    margin: 0em;
+}
+
+/* *************** Testimonials ************ */
+.flex-direction-nav {
+    list-style: none;
+}

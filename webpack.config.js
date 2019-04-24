@@ -40,14 +40,6 @@ module.exports = {
                     loader: 'handlebars-loader',
                     options: {
                         partialDirs: [path.resolve(__dirname, 'src/'), ...dirs],
-                        // partialResolver: function (partial, callback) {
-                        //     console.log('partial: ', partial);
-                        //     const dirs = p => readdirSync(p).filter(f => statSync(path.join(p, f)).isDirectory());
-                        //     const err = console.error;
-                        //     callback(err, dirs);
-                        //     // should pass the partial's path on disk
-                        //     // to the callback. Callback accepts (err, locationOnDisk)
-                        // }
                     }
                 }]
             },

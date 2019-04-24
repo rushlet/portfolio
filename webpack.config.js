@@ -2,6 +2,10 @@ console.log('I am webpack.');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { lstatSync, readdirSync } = require('fs');
+const source = path.resolve(__dirname, 'src/components');
+const isDirectory = source => lstatSync(source).isDirectory();
+const dirs = readdirSync(source).map(name => path.join(source, name)).filter(isDirectory);
 const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
@@ -35,7 +39,15 @@ module.exports = {
                 use: [{
                     loader: 'handlebars-loader',
                     options: {
-                        helperDirs: [path.resolve(__dirname, 'src/components'), path.resolve(__dirname, 'src')],
+                        partialDirs: [path.resolve(__dirname, 'src/'), ...dirs],
+                        // partialResolver: function (partial, callback) {
+                        //     console.log('partial: ', partial);
+                        //     const dirs = p => readdirSync(p).filter(f => statSync(path.join(p, f)).isDirectory());
+                        //     const err = console.error;
+                        //     callback(err, dirs);
+                        //     // should pass the partial's path on disk
+                        //     // to the callback. Callback accepts (err, locationOnDisk)
+                        // }
                     }
                 }]
             },

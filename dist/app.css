@@ -1,11 +1,5 @@
-@font-face {
-    font-family: 'DroidSans', sans-serif;
-    src: url(../font/DroidSans-webfont.ttf);
-}
-
-@font-face {
-    font-family: 'existence';
-    src: url(../font/Existence-Light.ttf);
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -142,13 +136,11 @@ section {
 }
 
 #intro {
-    background: url(../img/backgroundnt.png) no-repeat right;
+    background: url(d7f5ede6dad11b2e8a32d34f0709acc7.png) no-repeat right;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
-
-#about {}
 
 .aboutContent {
     width: 90%;

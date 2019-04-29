@@ -1,22 +1,22 @@
 <section id="portfolio">
-    <div class="container">
-        <h2>Portfolio</h2>
-        <div id="portfolioContent">
-            <p> items: {{items}}</p>
-            <p> test: {{test}}</p>
-            <ul id="filter-list" class="clearfix">
-                <li class="filter" data-filter="all">All</li>
-                <li class="filter" data-filter="webdesign">Web Design</li>
-                <li class="filter" data-filter="webdevelopment">Web Development</li>
-                <li class="filter" data-filter="misc">Miscellaneous</li>
-            </ul><!-- @end #filter-list -->
-            <ul id="portfolioGrid">
-            {{#each items as |item|}}
-                <li class="portfolio-item--li {{filters}}">
-                    {{> portfolio-item item}}
+    <h2>Portfolio</h2>
+    <div class="portfolio-section">
+        <div class="portfolio-filters">
+            <label>Filter portfolio examples</label>
+            <ul>
+                {{#each filters}}
+                <li>
+                    {{> portfolio-filter this}}
                 </li>
-            {{/each}}
-            </ul><!-- @end #portfolioGrid -->
+                {{/each}}
+            </ul>
         </div>
+        <ul class="portfolio-grid">
+        {{#each items as |item|}}
+            <li class="portfolio-item--li {{filters}}">
+                {{> portfolio-item item}}
+            </li>
+        {{/each}}
+        </ul><!-- @end #portfolioGrid -->
     </div>
 </section>

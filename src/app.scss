@@ -6,6 +6,7 @@ $color3: #df6b00;
 $breakpoint: 768px;
 
 @import './components/nav/nav.scss';
+@import './components/portfolio/portfolio.scss';
 
 * {
     box-sizing: border-box;

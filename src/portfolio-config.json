@@ -1,4 +1,23 @@
-{"items": [
+{
+    "filters": [
+        {
+            "filter": "all",
+            "label": "All"
+        },
+        {
+            "filter": "webdevelopment",
+            "label": "Web development"
+        },
+        {
+            "filter": "webdesign",
+            "label": "Web design"
+        },
+        {
+            "filter": "misc",
+            "label": "Miscellaneous"
+        }
+    ],
+    "items": [
     {
         "title": "A visual analysis of UK number 1s",
         "img-src": "https://rushlet.github.io/portfolio/img/visual-analysis-uk-number1s.png",

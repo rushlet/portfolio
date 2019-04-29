@@ -1,7 +1,9 @@
 // colours
 $color1: #f5a62a;
 $color2: #414752;
-$color3: #e67b29;
+$color3: #df6b00;
+
+$breakpoint: 768px;
 
 @import './components/nav/nav.scss';
 
@@ -12,9 +14,9 @@ $color3: #e67b29;
 body {
     font-family: 'existence', verdana, sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 400;
     color: $color2;
-    margin: 0;
+    margin: 0.5em;
     padding: 0;
     text-align: center;
 }

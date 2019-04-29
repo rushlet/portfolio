@@ -61,6 +61,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'index.hbs'),
             title: 'Webpack project set up', // needs updating with each project!
+            templateParameters: require('./src/portfolio-config.json'),
+            data: require('./src/portfolio-config.json')
         }),
         new MiniCssExtractPlugin({
             filename: '[name].css',

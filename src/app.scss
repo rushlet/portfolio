@@ -22,6 +22,16 @@ body {
     text-align: center;
 }
 
+p {
+    max-width: 650px;
+    margin: auto;
+    text-align: left;
+}
+
 a {
     cursor: pointer;
+}
+
+.hide {
+    display: none;
 }

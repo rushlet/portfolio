@@ -20,31 +20,31 @@
     "items": [
     {
         "title": "A visual analysis of UK number 1s",
-        "img-src": "https://rushlet.github.io/portfolio/img/visual-analysis-uk-number1s.png",
+        "img-src": "../img/visual-analysis-uk-number1s.png",
         "filters": "webdevelopment webdesign misc",
         "link": "UK-number-1s.html",
         "desc": "lorem ipsum blah blah blah blah blah"
     }, {
         "title": "Climate change calculator",
-        "img-src": "https://rushlet.github.io/portfolio/img/greendiet.png",
+        "img-src": "../img/greendiet.png",
         "filters": "webdevelopment",
         "link": "UK-number-1s.html",
         "desc": "lorem ipsum blah blah blah blah blah"
     }, {
         "title": "Freedom trash can",
-        "img-src": "https://rushlet.github.io/portfolio/img/trashcan.png",
+        "img-src": "../img/trashcan.png",
         "filters": "webdevelopment",
         "link": "UK-number-1s.html",
         "desc": "lorem ipsum blah blah blah blah blah"
     }, {
         "title": "Croaked",
-        "img-src": "https://rushlet.github.io/portfolio/img/croaked.png",
+        "img-src": "../img/croaked.png",
         "filters": "webdevelopment webdesign misc",
         "link": "UK-number-1s.html",
         "desc": "lorem ipsum blah blah blah blah blah"
     }, {
         "title": "What has Trump said about your country?",
-        "img-src": "https://rushlet.github.io/portfolio/img/bbc-trump-talk.png",
+        "img-src": "../img/bbc-trump-talk.png",
         "filters": "webdevelopment",
         "link": "UK-number-1s.html",
         "desc": "lorem ipsum blah blah blah blah blah"

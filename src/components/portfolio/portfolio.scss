@@ -2,10 +2,15 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     justify-items: center;
-    grid-row-gap: 1em;
+    grid-row-gap: 1.5em;
 }
 
 .portfolio-item {
     max-width: 400px;
     display: inline-block;
+}
+
+.portfolio-item--title {
+    color: $color1;
+    margin: 0.5em;
 }

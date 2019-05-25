@@ -8,6 +8,7 @@ $component-background: rgba($color2, 0.025);
 $breakpoint: 48em;
 
 @import './components/nav/nav.scss';
+@import './components/intro/intro.scss';
 @import './components/portfolio/portfolio.scss';
 
 @font-face {

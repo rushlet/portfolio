@@ -59,6 +59,29 @@
     .nav-menu li {
       margin: auto 0.5em; } }
 
+.intro {
+  height: 65vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center; }
+
+h1.introText {
+  font-size: 5.5em;
+  margin: 0.5em 0 0; }
+  @media (min-width: 48em) {
+    h1.introText {
+      font-size: 7.5em;
+      margin: 3em 0 0; } }
+
+h2.introText {
+  font-size: 2em;
+  margin: 1em 0; }
+  @media (min-width: 48em) {
+    h2.introText {
+      font-size: 4em;
+      margin: 3em 0 0; } }
+
 .portfolio-filters ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18ch, 1fr));
@@ -77,7 +100,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
       justify-items: center;
-      grid-row-gap: 1.5em; } }
+      grid-row-gap: 1em; } }
 
 .portfolio-item {
   max-width: 100%;
@@ -88,7 +111,8 @@
   position: relative; }
   @media (min-width: 25em) {
     .portfolio-item {
-      max-width: calc(25em + 2em); } }
+      max-width: calc(25em + 2em);
+      margin: 0 0.5em; } }
 
 .portfolio-item--container {
   max-width: 25em; }

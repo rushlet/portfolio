@@ -5,7 +5,7 @@ $color3: #df6b00;
 
 $component-background: rgba($color2, 0.025);
 
-$breakpoint: 768px;
+$breakpoint: 48em;
 
 @import './components/nav/nav.scss';
 @import './components/portfolio/portfolio.scss';
@@ -25,7 +25,7 @@ body {
 }
 
 p {
-    max-width: 650px;
+    max-width: 40em;
     margin: auto;
     text-align: left;
 }

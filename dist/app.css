@@ -2,7 +2,7 @@
   min-width: 100%;
   position: relative;
   padding: 0 1em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 48em) {
     .navBar {
       padding: 0;
       margin-top: 0; } }
@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 1em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 48em) {
     .nav-wrapper {
       display: block;
       padding: 0; } }
@@ -31,7 +31,7 @@
   list-style-type: none;
   width: 85%;
   max-width: 1000px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 48em) {
     .nav-menu {
       width: 100%;
       display: grid;
@@ -55,7 +55,7 @@
 
 .nav-menu li {
   display: inline-block; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 48em) {
     .nav-menu li {
       margin: auto 0.5em; } }
 
@@ -72,10 +72,10 @@
 .portfolio-grid {
   max-width: 100%;
   padding-left: 0; }
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     .portfolio-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
       justify-items: center;
       grid-row-gap: 1.5em; } }
 
@@ -116,7 +116,7 @@ body {
   text-align: center; }
 
 p {
-  max-width: 650px;
+  max-width: 40em;
   margin: auto;
   text-align: left; }
 

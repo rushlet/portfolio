@@ -18,7 +18,7 @@ $portfolio-item-width: 25em;
 
     @media (min-width: $breakpoint) {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax($portfolio-item-width, 1fr));
         justify-items: center;
         grid-row-gap: 1.5em;
     }

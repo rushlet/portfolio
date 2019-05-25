@@ -1,0 +1,54 @@
+{
+    "filters": [
+        {
+            "filter": "all",
+            "label": "All"
+        },
+        {
+            "filter": "webdevelopment",
+            "label": "Web development"
+        },
+        {
+            "filter": "webdesign",
+            "label": "Web design"
+        },
+        {
+            "filter": "misc",
+            "label": "Miscellaneous"
+        }
+    ],
+    "items": [
+    {
+        "title": "A visual analysis of UK number 1s",
+        "img-src": "./assets/img/visual-analysis-uk-number1s.png",
+        "filters": "webdevelopment webdesign misc",
+        "link": "UK-number-1s.html",
+        "desc": "lorem ipsum blah blah blah blah blah"
+    }, {
+        "title": "Climate change calculator",
+        "img-src": "./assets/img/greendiet.png",
+        "filters": "webdevelopment",
+        "link": "UK-number-1s.html",
+        "desc": "lorem ipsum blah blah blah blah blah"
+    }, {
+        "title": "Freedom trash can",
+        "img-src": "./assets/img/trashcan.png",
+        "filters": "webdevelopment",
+        "link": "UK-number-1s.html",
+        "desc": "lorem ipsum blah blah blah blah blah"
+    }, {
+        "title": "Croaked",
+        "img-src": "./assets/img/croaked.png",
+        "filters": "webdevelopment webdesign misc",
+        "link": "UK-number-1s.html",
+        "desc": "lorem ipsum blah blah blah blah blah"
+    }, {
+        "title": "What has Trump said about your country?",
+        "img-src": "./assets/img/bbc-trump-talk.png",
+        "filters": "webdevelopment",
+        "link": "UK-number-1s.html",
+        "desc": "lorem ipsum blah blah blah blah blah"
+    }
+],
+"test": "hello"
+}

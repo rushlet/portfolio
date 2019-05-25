@@ -9,18 +9,18 @@
     <link href="app.css" rel="stylesheet"></head>
 
     <body>
-        
-        <nav class="navBar">
-            <nav class="wrapper">
-                <div class="logo"></div><!-- Logo -->
-                <input type="checkbox" id="menu-toggle" />
-                <label for="menu-toggle" class="label-toggle"></label>
-                <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Ipsum</a></li>
-                    <li><a href="#">Serum</a></li>
+        <nav class="navBar" aria-label="Main menu">
+            <div class="nav-wrapper">
+                <div class="logo"></div>
+                <ul class="nav-menu">
+                    <li class="nav-menu--item"><a href="#intro">Home</a></li>
+                    <li class="nav-menu--item"><a href="#about">About</a></li>
+                    <li class="nav-menu--item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-menu--item"><a href="#">Writing & Speaking</a></li>
+                    <li class="nav-menu--item"><a href="#testimonials">Testimonials</a></li>
+                    <li class="nav-menu--item"><a href="#contact">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
         </nav>
         <body>
         	<div id="wrapper">
@@ -45,26 +45,69 @@
         		                    Blogging.</span>
         		        </div>
         		        <div class="aboutContent">
-        		            <img id="me" alt="about me" src="img/me_3.png">
+        		            <img id="me" alt="about me" src="assets/img/me_3.png">
         		            <ul class="aboutbtn">
         		                <li><a href="cv-online.pdf" target="_blank">See my CV</a></li>
         		            </ul>
         		        </div>
         		    </div>
         		</section>		<section id="portfolio">
-        		    <div class="container">
-        		        <h2>Portfolio</h2>
-        		        <div id="portfolioContent">
-        		            <ul id="filter-list" class="clearfix">
-        		                <li class="filter" data-filter="all">All</li>
-        		                <li class="filter" data-filter="webdesign">Web Design</li>
-        		                <li class="filter" data-filter="webdevelopment">Web Development</li>
-        		                <li class="filter" data-filter="misc">Miscellaneous</li>
-        		            </ul><!-- @end #filter-list -->
-        		            <ul id="portfolioGrid">
-        		
-        		            </ul><!-- @end #portfolioGrid -->
+        		    <h2>Portfolio</h2>
+        		    <div class="portfolio-section">
+        		        <div class="portfolio-filters" style="display:none">
+        		            <label>Filter portfolio examples</label>
+        		            <ul>
+        		                <li>
+        		                    <input class="portfolio-filter filter-input" name="filter" type="radio" id="all">
+        		                    <label class="portfolio-filter" for="all">All</label>                </li>
+        		                <li>
+        		                    <input class="portfolio-filter filter-input" name="filter" type="radio" id="webdevelopment">
+        		                    <label class="portfolio-filter" for="webdevelopment">Web development</label>                </li>
+        		                <li>
+        		                    <input class="portfolio-filter filter-input" name="filter" type="radio" id="webdesign">
+        		                    <label class="portfolio-filter" for="webdesign">Web design</label>                </li>
+        		                <li>
+        		                    <input class="portfolio-filter filter-input" name="filter" type="radio" id="misc">
+        		                    <label class="portfolio-filter" for="misc">Miscellaneous</label>                </li>
+        		            </ul>
         		        </div>
+        		        <ul class="portfolio-grid">
+        		            <li class="portfolio-item webdevelopment webdesign misc">
+        		                <div class="portfolio-item--container">
+        		                    <img src=./assets/img/visual-analysis-uk-number1s.png class="portfolio-item--img">
+        		                    <h3 class="portfolio-item--title">A visual analysis of UK number 1s</h3>
+        		                    <p class="portfolio-item--description">lorem ipsum blah blah blah blah blah</p>
+        		                    <a class="portfolio-item--link" href=UK-number-1s.html>Find out more</a>
+        		                </div>            </li>
+        		            <li class="portfolio-item webdevelopment">
+        		                <div class="portfolio-item--container">
+        		                    <img src=./assets/img/greendiet.png class="portfolio-item--img">
+        		                    <h3 class="portfolio-item--title">Climate change calculator</h3>
+        		                    <p class="portfolio-item--description">lorem ipsum blah blah blah blah blah</p>
+        		                    <a class="portfolio-item--link" href=UK-number-1s.html>Find out more</a>
+        		                </div>            </li>
+        		            <li class="portfolio-item webdevelopment">
+        		                <div class="portfolio-item--container">
+        		                    <img src=./assets/img/trashcan.png class="portfolio-item--img">
+        		                    <h3 class="portfolio-item--title">Freedom trash can</h3>
+        		                    <p class="portfolio-item--description">lorem ipsum blah blah blah blah blah</p>
+        		                    <a class="portfolio-item--link" href=UK-number-1s.html>Find out more</a>
+        		                </div>            </li>
+        		            <li class="portfolio-item webdevelopment webdesign misc">
+        		                <div class="portfolio-item--container">
+        		                    <img src=./assets/img/croaked.png class="portfolio-item--img">
+        		                    <h3 class="portfolio-item--title">Croaked</h3>
+        		                    <p class="portfolio-item--description">lorem ipsum blah blah blah blah blah</p>
+        		                    <a class="portfolio-item--link" href=UK-number-1s.html>Find out more</a>
+        		                </div>            </li>
+        		            <li class="portfolio-item webdevelopment">
+        		                <div class="portfolio-item--container">
+        		                    <img src=./assets/img/bbc-trump-talk.png class="portfolio-item--img">
+        		                    <h3 class="portfolio-item--title">What has Trump said about your country?</h3>
+        		                    <p class="portfolio-item--description">lorem ipsum blah blah blah blah blah</p>
+        		                    <a class="portfolio-item--link" href=UK-number-1s.html>Find out more</a>
+        		                </div>            </li>
+        		        </ul><!-- @end #portfolioGrid -->
         		    </div>
         		</section>		<section id="testimonials">
         		    <div class="container">

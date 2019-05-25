@@ -3,9 +3,12 @@ $color1: #f5a62a;
 $color2: #414752;
 $color3: #df6b00;
 
-$breakpoint: 768px;
+$component-background: rgba($color2, 0.025);
+
+$breakpoint: 48em;
 
 @import './components/nav/nav.scss';
+@import './components/portfolio/portfolio.scss';
 
 * {
     box-sizing: border-box;
@@ -21,6 +24,16 @@ body {
     text-align: center;
 }
 
+p {
+    max-width: 40em;
+    margin: auto;
+    text-align: left;
+}
+
 a {
     cursor: pointer;
+}
+
+.hide {
+    display: none;
 }

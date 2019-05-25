@@ -103,11 +103,15 @@
 input[type=radio]:checked + li {
   background: green; }
 
+@font-face {
+  font-family: sofia;
+  src: url(b097ba5e7522eb12c96b7440a67bd78e.woff); }
+
 * {
   box-sizing: border-box; }
 
 body {
-  font-family: 'existence', verdana, sans-serif;
+  font-family: 'sofia', verdana, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #414752;

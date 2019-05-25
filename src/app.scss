@@ -10,12 +10,17 @@ $breakpoint: 48em;
 @import './components/nav/nav.scss';
 @import './components/portfolio/portfolio.scss';
 
+@font-face {
+    font-family: sofia;
+    src: url(./assets/font/sofiapro-light-webfont.woff);
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'existence', verdana, sans-serif;
+    font-family: 'sofia', verdana, sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: $color2;

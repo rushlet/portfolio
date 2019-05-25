@@ -20,7 +20,7 @@ $portfolio-item-width: 25em;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax($portfolio-item-width, 1fr));
         justify-items: center;
-        grid-row-gap: 1.5em;
+        grid-row-gap: 1em;
     }
 }
 
@@ -34,6 +34,7 @@ $portfolio-item-width: 25em;
 
     @media (min-width: $portfolio-item-width) {
         max-width: calc(#{$portfolio-item-width} + 2em);
+        margin: 0 0.5em;
     }
 }
 

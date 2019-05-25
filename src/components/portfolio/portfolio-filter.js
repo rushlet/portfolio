@@ -7,7 +7,9 @@ class PortfolioFilters {
     }
 
     getSelectedFilter() {
-        return document.querySelector('input[name = "filter"]:checked').id;
+        return document.querySelector('input[name = "filter"]:checked').id.match('hello') ? true: false;
+
+        // return document.querySelector('input[name = "filter"]:checked').id;
     }
 
     filterItems() {

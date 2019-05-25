@@ -1,0 +1,40 @@
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content--text {
+    max-width: 48vw;
+    padding-left: 1em;
+}
+
+.about-content--img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.about-content--img img {
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    border: 0.125em solid $color1;
+}
+
+.about-content--img-shuffle {
+    width: 6em;
+    height: 3em;
+    background-color: $color2;
+    border-radius: 2em;
+    cursor: pointer;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: $color1;
+    }
+}
+
+.about-buttons {
+    display: block;
+}

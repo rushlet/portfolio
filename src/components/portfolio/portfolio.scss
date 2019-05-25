@@ -1,11 +1,20 @@
 $portfolio-item-width: 25em;
 
+.portfolio {
+    display: block;
+}
+
 .portfolio-filters ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18ch, 1fr));
+    grid-template-columns: repeat(2, auto);
     grid-column-gap: 1em;
+    grid-auto-rows: auto;
     justify-items: center;
     padding-left: 0;
+
+    @media (min-width: $breakpoint) {
+        grid-template-columns: repeat(4, auto);
+    }
 }
 
 .portfolio-filters li {

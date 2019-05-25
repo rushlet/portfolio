@@ -1,22 +1,42 @@
+.about .container {
+    max-width: 100%;
+}
+
 .about-content {
-    display: flex;
-    justify-content: space-between;
+    max-width: 100%;
+
+    @media screen and (min-width: $breakpoint) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .about-content--text {
-    max-width: 48vw;
-    padding-left: 1em;
+    @media screen and (min-width: $breakpoint) {
+        max-width: 48vw;
+        padding: 1em;
+        margin: 0 1em 3em 2em;
+    }
 }
 
 .about-content--img {
-    width: 400px;
-    height: 400px;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: 1em auto 3.5em;
+
+    @media screen and (min-width: $breakpoint) {
+        width: 400px;
+        height: 400px;
+    }
 }
 
 .about-content--img img {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     border: 0.125em solid $color1;
 }
@@ -27,6 +47,8 @@
     background-color: $color2;
     border-radius: 2em;
     cursor: pointer;
+    display: block;
+    margin: 0.5em auto;
 
     svg {
         width: 100%;

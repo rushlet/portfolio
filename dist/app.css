@@ -88,7 +88,10 @@
   position: relative; }
   @media (min-width: 25em) {
     .portfolio-item {
-      max-width: calc($portfolio-item-width + 2em); } }
+      max-width: calc(25em + 2em); } }
+
+.portfolio-item--container {
+  max-width: 25em; }
 
 .portfolio-item--img {
   max-width: 95%; }

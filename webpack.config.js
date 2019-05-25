@@ -6,6 +6,8 @@ const { lstatSync, readdirSync } = require('fs');
 const source = path.resolve(__dirname, 'src/components');
 const isDirectory = source => lstatSync(source).isDirectory();
 const dirs = readdirSync(source).map(name => path.join(source, name)).filter(isDirectory);
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
@@ -53,7 +55,9 @@ module.exports = {
             },
             {
                  test: /\.(jpe?g|png|gif|woff|woff2|eot|ttf|svg)(\?[a-z0-9=.]+)?$/,
-                 loader: 'url-loader?limit=100000'
+                 use: [
+                     'file-loader'
+                 ]
             }
        ],
     },
@@ -68,5 +72,10 @@ module.exports = {
             filename: '[name].css',
             chunkFilename: '[id].css',
         }),
+        new CopyWebpackPlugin([{
+            from: './src/assets',
+            to: './assets'
+        }]),
+        new CleanWebpackPlugin(),
     ]
 };

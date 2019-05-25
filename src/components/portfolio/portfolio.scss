@@ -1,3 +1,15 @@
+.portfolio-filters ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18ch, 1fr));
+    grid-column-gap: 1em;
+    justify-items: center;
+    padding-left: 0;
+}
+
+.portfolio-filters li {
+    list-style-type: none;
+}
+
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -13,4 +25,8 @@
 .portfolio-item--title {
     color: $color1;
     margin: 0.5em;
+}
+
+input[type=radio]:checked + li {
+    background: green;
 }

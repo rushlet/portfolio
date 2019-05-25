@@ -3,6 +3,7 @@ class PortfolioFilters {
         this.filters = document.querySelectorAll('.filter-input');
         this.portfolioItems = document.querySelectorAll('.portfolio-item');
         this.filters.forEach((filter) => filter.addEventListener('change', this.filterItems.bind(this)));
+        document.querySelector('#all').setAttribute('checked', true);
     }
 
     getSelectedFilter() {

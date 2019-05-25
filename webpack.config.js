@@ -54,7 +54,7 @@ module.exports = {
                 ]
             },
             {
-                 test: /\.(jpe?g|png|gif|woff|woff2|eot|ttf|svg)(\?[a-z0-9=.]+)?$/,
+                 test: /\.(woff|woff2)(\?[a-z0-9=.]+)?$/,
                  use: [
                      'file-loader'
                  ]
@@ -62,6 +62,11 @@ module.exports = {
        ],
     },
     plugins: [
+        new CleanWebpackPlugin(),
+        new CopyWebpackPlugin([{
+            from: './src/assets/img',
+            to: './assets/img'
+        }]),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'index.hbs'),
             title: 'Webpack project set up', // needs updating with each project!
@@ -72,10 +77,5 @@ module.exports = {
             filename: '[name].css',
             chunkFilename: '[id].css',
         }),
-        new CopyWebpackPlugin([{
-            from: './src/assets',
-            to: './assets'
-        }]),
-        new CleanWebpackPlugin(),
     ]
 };

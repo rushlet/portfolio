@@ -70,14 +70,28 @@
   list-style-type: none; }
 
 .portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  justify-items: center;
-  grid-row-gap: 1.5em; }
+  max-width: 100%;
+  padding-left: 0; }
+  @media (min-width: 768px) {
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      justify-items: center;
+      grid-row-gap: 1.5em; } }
 
 .portfolio-item {
-  max-width: 400px;
-  display: inline-block; }
+  max-width: 100%;
+  display: inline-block;
+  background-color: rgba(65, 71, 82, 0.025);
+  padding: 1em 0.5em;
+  margin-bottom: 1em;
+  position: relative; }
+  @media (min-width: 25em) {
+    .portfolio-item {
+      max-width: calc($portfolio-item-width + 2em); } }
+
+.portfolio-item--img {
+  max-width: 95%; }
 
 .portfolio-item--title {
   color: #f5a62a;

@@ -3,6 +3,8 @@ $color1: #f5a62a;
 $color2: #414752;
 $color3: #df6b00;
 
+$component-background: rgba($color2, 0.025);
+
 $breakpoint: 768px;
 
 @import './components/nav/nav.scss';

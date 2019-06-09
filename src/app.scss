@@ -8,8 +8,13 @@ $component-background: rgba($color2, 0.025);
 $breakpoint: 48em;
 
 @font-face {
-    font-family: sofia;
-    src: url(./assets/font/sofiapro-light-webfont.woff);
+    font-family: acherus;
+    src: url(./assets/font/acherusgrotesque-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: public;
+    src: url(./assets/font/PublicSans-Roman-VF.ttf);
 }
 
 * {
@@ -17,7 +22,7 @@ $breakpoint: 48em;
 }
 
 body {
-    font-family: 'sofia', verdana, sans-serif;
+    font-family: 'acherus', verdana, sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: $color2;
@@ -41,11 +46,14 @@ section {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
+    @media (min-width: $breakpoint) {
+        font-size: 3em;
+    }
 }
 
 p {
-    max-width: 40em;
+    max-width: 33em;
     margin: auto;
     text-align: left;
 }

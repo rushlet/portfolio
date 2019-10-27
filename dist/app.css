@@ -16,7 +16,8 @@ body {
   color: #414752;
   margin: 0.5em;
   padding: 0 0.5em;
-  text-align: center; }
+  text-align: center;
+  background: #ffd128; }
 
 section {
   min-height: 65vh;
@@ -116,7 +117,7 @@ a {
 h1.introText {
   font-size: 4rem;
   margin: 3em 0 0;
-  color: #febe00;
+  color: #414752;
   text-transform: uppercase;
   font-family: 'public', verdana, sans-serif; }
   @media (min-width: 48em) {
@@ -142,11 +143,14 @@ h2.introText {
       justify-content: space-between;
       align-items: center; } }
 
+.about-content--text p {
+  margin-bottom: 0.5rem; }
+
 @media screen and (min-width: 48em) {
   .about-content--text {
     max-width: 40vw;
     padding: 1em;
-    margin: 0 2em 3em; } }
+    margin: 0 2em; } }
 
 .about-content--img {
   width: 100%;
@@ -154,7 +158,7 @@ h2.introText {
   max-width: 400px;
   max-height: 400px;
   display: block;
-  margin: 1em auto 3.5em; }
+  margin: 2em auto 3.5em; }
   @media screen and (min-width: 48em) {
     .about-content--img {
       width: 400px;
@@ -164,7 +168,7 @@ h2.introText {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 0.125em solid #febe00; }
+  border: 3px solid #006080; }
 
 .about-content--img-shuffle {
   width: 6em;
@@ -177,10 +181,26 @@ h2.introText {
   .about-content--img-shuffle svg {
     width: 100%;
     height: 100%;
-    fill: #febe00; }
+    fill: #ffd128; }
+
+.about-docs {
+  text-align: center; }
+  @media screen and (min-width: 48em) {
+    .about-docs {
+      margin-left: 3em;
+      text-align: left; } }
+  .about-docs p {
+    margin: 0; }
 
 .about-buttons {
-  display: block; }
+  display: block;
+  padding: 0; }
+  .about-buttons li {
+    list-style: none; }
+  .about-buttons a {
+    color: #006080; }
+  .about-buttons a:hover {
+    font-weight: bold; }
 
 .portfolio {
   display: block; }
@@ -228,7 +248,7 @@ h2.introText {
   max-width: 95%; }
 
 .portfolio-item--title {
-  color: #febe00;
+  color: #414752;
   margin: 0.5em; }
 
 input[type=radio]:checked + li {

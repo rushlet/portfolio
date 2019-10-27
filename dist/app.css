@@ -51,8 +51,8 @@ a:hover {
   font-weight: bold;
   color: #006080; }
 
-.hide {
-  display: none; }
+footer p {
+  text-align: center; }
 
 .navBar {
   min-width: 100%;
@@ -187,18 +187,14 @@ h2.introText {
     height: 100%;
     fill: #ffd128; }
 
-.about-docs {
-  text-align: center; }
-  @media screen and (min-width: 48em) {
-    .about-docs {
-      margin-left: 3em;
-      text-align: left; } }
-  .about-docs p {
-    margin: 0; }
-
 .about-buttons {
   display: block;
-  padding: 0; }
+  padding: 0;
+  text-align: center;
+  margin-top: 2rem; }
+  @media screen and (min-width: 48em) {
+    .about-buttons {
+      text-align: left; } }
   .about-buttons li {
     list-style: none; }
 
@@ -298,4 +294,42 @@ details[open] {
     color: #ffd128; }
   .details--container p {
     margin-bottom: 0.5rem; }
+
+.testimonial {
+  list-style: none;
+  margin-bottom: 2rem; }
+
+.testimonial--text {
+  text-align: center;
+  margin-bottom: 0.5rem; }
+
+.testimonial--author {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .testimonial--author img {
+    max-width: 3.5rem;
+    border-radius: 50%;
+    align-self: center;
+    margin-right: 1em; }
+  .testimonial--author-details {
+    text-align: left;
+    font-size: 0.875rem;
+    line-height: 1rem; }
+    .testimonial--author-details .person {
+      font-size: 1rem; }
+    .testimonial--author-details span {
+      display: block; }
+
+.contact-content p {
+  margin-bottom: 0.5em;
+  text-align: center; }
+
+.social-media-links {
+  margin-top: 3em; }
+  .social-media-links img {
+    max-width: 5em; }
+    .social-media-links img:hover {
+      transform: rotate(-10deg);
+      transition-duration: 0.25s; }
 

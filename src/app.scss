@@ -71,11 +71,16 @@ a:hover {
   color: $color1;
 }
 
-.hide {
-    display: none;
+footer {
+  p {
+    text-align: center;
+  }
 }
 
 @import './components/nav/nav.scss';
 @import './components/intro/intro.scss';
 @import './components/about/about.scss';
 @import './components/portfolio/portfolio.scss';
+@import './components/writing-speaking/writing-speaking.scss';
+@import './components/testimonials/testimonials.scss';
+@import './components/contact/contact.scss';

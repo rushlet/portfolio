@@ -61,22 +61,14 @@
     }
 }
 
-.about-docs {
-  text-align: center;
-  @media screen and (min-width: $breakpoint) {
-    margin-left: 3em;
-    text-align: left;
-  }
-
-  p {
-    margin: 0;
-  }
-
-}
-
 .about-buttons {
     display: block;
     padding: 0;
+    text-align: center;
+    margin-top: 2rem;
+    @media screen and (min-width: $breakpoint) {
+      text-align: left;
+    }
 
     li {
       list-style: none;

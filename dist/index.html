@@ -14,11 +14,12 @@
                 <li class="nav-menu--item"><a href="#intro">Home</a></li>
                 <li class="nav-menu--item"><a href="#about">About</a></li>
                 <li class="nav-menu--item"><a href="#portfolio">Portfolio</a></li>
-                <li class="nav-menu--item"><a href="#">Writing & Speaking</a></li>
+                <li class="nav-menu--item"><a href="#writing-speaking">Writing & Speaking</a></li>
                 <li class="nav-menu--item"><a href="#testimonials">Testimonials</a></li>
                 <li class="nav-menu--item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        
         <body>
         	<div id="wrapper">
         		<section id="intro" class="intro">
@@ -38,6 +39,11 @@
         		                    and <span class="skills">JavaScript</span> to produce awesome web content.</p>
         		                <p>I also have skills in <span class="skills">Data Gathering & Analysis, Digital Design,
         		                    WordPress, Public Speaking, Copy Writing and Blogging.</span></p>
+        		
+        		                <ul class="about-buttons">
+        		                    <li><a href="assets/docs/cv-online.pdf" target="_blank">See my CV</a></li>
+        		                    <li><a href="assets/docs/portfolio-download.pdf" target="_blank">Check out my downloadable portfolio</a></li>
+        		                </ul>
         		            </div>
         		            <div class="about-content--img" aria-hidden="true">
         		                <img class="img-me" alt="Photo of me, holding my laptop" src="assets/img/me/cropped.jpg">
@@ -68,12 +74,6 @@
         		    </g>
         		</svg></button>
         		            </div>
-        		        </div>
-        		        <div class="about-docs">
-        		            <ul class="about-buttons">
-        		                <li><a href="assets/docs/cv-online.pdf" target="_blank">See my CV</a></li>
-        		                <li><a href="assets/docs/portfolio-download.pdf" target="_blank">Check out my downloadable portfolio</a></li>
-        		            </ul>
         		        </div>
         		    </div>
         		</section>
@@ -183,38 +183,146 @@
         		        </ul>
         		    </div>
         		</section>
+            <section id="writing-speaking">
+                <div class="container">
+                    <h2>Writing & Speaking</h2>
+                    <div class="writing-speaking-wrapper">
+                      <div class="writings">
+                        <h3>Writings</h3>
+                        <p>
+                          Here are links to articles, blog posts and other bits I've written
+                        </p>
+                          <ul class="writing">
+                            <li>thing 1</li>
+                            <li>thing 2</li>
+                            <li>thing 3</li>
+                          </ul>
+                      </div>
+                      <div class="speakings">
+                        <h3>Speakings</h3>
+                        <p>
+                          I've had the pleasure of speaking at...
+                        </p>
+                          <ul class="writing">
+                            <li>thing 1</li>
+                            <li>thing 2</li>
+                            <li>thing 3</li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+            </section>
         		<section id="testimonials">
         		    <div class="container">
         		        <h2>Testimonials</h2>
-        		        <div class="cd-testimonials-wrapper cd-container">
-        		            <ul class="cd-testimonials">
-        		
-        		            </ul><!-- cd-testimonials -->
+        		        <div class="testimonials-wrapper">
+        		            <ul class="testimonials">
+        		                <li class="testimonial">
+        		                  <p class="testimonial--text">"Becky was able to build on her front-end knowledge and enthusiastically picked up new skills throughout her time as a trainee in Visual Journalism. After a few months she was as productive as any of our full-time developers"</p>
+        		                  <div class="testimonial--author">
+        		                    <img src=./assets/img/chris.jpg alt=""/>
+        		                    <div class="testimonial--author-details">
+        		                      <span class="person"><a href=https://www.linkedin.com/in/chrisbashton/>Chris Ashton</a></span>
+        		                      <span class="role">Senior Web Developer</span>
+        		                      <span class="company">BBC News</span>
+        		                    </div>
+        		                  </div>
+        		                </li>
+        		                <li class="testimonial">
+        		                  <p class="testimonial--text">"Becky is a wonderful person to work with and has been a great asset to all of the city event projects we have delivered. She is a natural problem solver and has shown a clear understanding of our needs as well as providing clever solutions when needed. She rocks!"</p>
+        		                  <div class="testimonial--author">
+        		                    <img src=./assets/img/mat.jpg alt=""/>
+        		                    <div class="testimonial--author-details">
+        		                      <span class="person"><a href=https://uk.linkedin.com/in/mat-cook-ab358b2b>Mat Cook</a></span>
+        		                      <span class="role">Director</span>
+        		                      <span class="company">CooktheRabbit Events</span>
+        		                    </div>
+        		                  </div>
+        		                </li>
+        		                <li class="testimonial">
+        		                  <p class="testimonial--text">"I knew how I wanted my author website to look and work - but had no idea how to make it happen. Fortunately, Becky stepped in and created a website that I love. She talked me through the process, answered all my IT questions – even the daft ones – and provided great value for money."</p>
+        		                  <div class="testimonial--author">
+        		                    <img src=./assets/img/liz.jpg alt=""/>
+        		                    <div class="testimonial--author-details">
+        		                      <span class="person"><a href=https://www.linkedin.com/in/liz-eeles-b7544228/>Liz Eeles</a></span>
+        		                      <span class="role">Author</span>
+        		                      
+        		                    </div>
+        		                  </div>
+        		                </li>
+        		                <li class="testimonial">
+        		                  <p class="testimonial--text">"Working with Becky to develop my website has been a really useful and positive experience. I found her to be patient and attentive to what I wanted from the website. I don&#x27;t have a technical background so I was reassured by her use of simple, but not patronizing, language to explain to me what she was doing and if and how things may or may not work."</p>
+        		                  <div class="testimonial--author">
+        		                    <img src=./assets/img/elsie.jpg alt=""/>
+        		                    <div class="testimonial--author-details">
+        		                      <span class="person"><a href=https://uk.linkedin.com/in/elsie-whittington-5785333b>Elsie Whittington</a></span>
+        		                      <span class="role">PhD Student</span>
+        		                      <span class="company">Sussex University</span>
+        		                    </div>
+        		                  </div>
+        		                </li>
+        		                <li class="testimonial">
+        		                  <p class="testimonial--text">"Accurate and creative work not usually found in one so young"</p>
+        		                  <div class="testimonial--author">
+        		                    <img src=./assets/img/vince.jpg alt=""/>
+        		                    <div class="testimonial--author-details">
+        		                      <span class="person"><a href=https://uk.linkedin.com/in/vince-sears-93773916>Vince Sears</a></span>
+        		                      <span class="role">Chairman</span>
+        		                      <span class="company">Field Marketing Solutions</span>
+        		                    </div>
+        		                  </div>
+        		                </li>
+        		                <li class="testimonial">
+        		                  <p class="testimonial--text">"Rebecca was fundamental in the construction of many of our promotions and would make an excellent addition to any team."</p>
+        		                  <div class="testimonial--author">
+        		                    <img src=./assets/img/jonathan.jpg alt=""/>
+        		                    <div class="testimonial--author-details">
+        		                      <span class="person"><a href=https://uk.linkedin.com/in/jonathan-hitchens-06963412>Jonathan Hitchens</a></span>
+        		                      <span class="role">CEO</span>
+        		                      <span class="company">TMC</span>
+        		                    </div>
+        		                  </div>
+        		                </li>
+        		                <li class="testimonial">
+        		                  <p class="testimonial--text">"Becky is a joy to work with"</p>
+        		                  <div class="testimonial--author">
+        		                    <img src=./assets/img/ross.jpg alt=""/>
+        		                    <div class="testimonial--author-details">
+        		                      <span class="person"><a href=https://nl.linkedin.com/in/rosss>Ross Sampson</a></span>
+        		                      <span class="role">Founder</span>
+        		                      <span class="company">RSS Solutions</span>
+        		                    </div>
+        		                  </div>
+        		                </li>
+        		            </ul>
         		        </div>
-        		        <!--cd-testimonials-wrapper-->
         		    </div>
-        		</section>		<section id="contact">
+        		</section>
+        		<section id="contact">
         		    <div class="container">
         		        <h2>Contact Me</h2>
-        		        <p>Have a project you want to discuss or just want to connect?</p>
-        		        <div class="contactContent">
-        		
-        		            <body>
-        		                <a href="http://twitter.com/rushlet_"><img class="socialMedia"
-        		                        src="https://cdn2.iconfinder.com/data/icons/free-social-media-5/32/twitter_social_media_online-128.png"
-        		                        alt="Follow me on Twitter"></a>
-        		                <a href="https://uk.linkedin.com/in/rushlet"><img class="socialMedia"
-        		                        src="https://cdn2.iconfinder.com/data/icons/free-social-media-5/32/linkedin_social_media_online-128.png"
-        		                        alt="Connect with me on LinkedIn"></a>
-        		                <a href="https://github.com/rushlet"><img class="socialMedia"
-        		                        src="https://cdn2.iconfinder.com/data/icons/free-social-media-5/32/github_social_media_online-128.png"
-        		                        alt="Check out my Github"></a>
-        		                <a href="https://www.instagram.com/rushlet/"><img class="socialMedia"
-        		                        src="https://cdn2.iconfinder.com/data/icons/free-social-media-5/32/instagram_social_media_online--128.png"
-        		                        alt="Follow me on Instagram"></a>
+        		        <div class="contact-content">
+        		          <p>Have a project you want to discuss or just want to connect?</p>
+        		          <p>Email me at <a href="mailto:becky@rushlet.co.uk">becky@rushlet.co.uk</a></p>
+        		          <p>or find me on social media:</p>
+        		          <div class="social-media-links">
+        		                  <a href="http://twitter.com/rushlet_">
+        		                    <img src="https://cdn2.iconfinder.com/data/icons/free-social-media-5/32/twitter_social_media_online-128.png"
+        		                          alt="Follow me on Twitter"></a>
+        		                  <a href="https://uk.linkedin.com/in/rushlet">
+        		                    <img src="https://cdn2.iconfinder.com/data/icons/free-social-media-5/32/linkedin_social_media_online-128.png"
+        		                          alt="Connect with me on LinkedIn"></a>
+        		                  <a href="https://github.com/rushlet">
+        		                    <img src="https://cdn2.iconfinder.com/data/icons/free-social-media-5/32/github_social_media_online-128.png"
+        		                          alt="Check out my Github"></a>
+        		                  <a href="https://www.instagram.com/rushlet/">
+        		                    <img src="https://cdn2.iconfinder.com/data/icons/free-social-media-5/32/instagram_social_media_online--128.png"
+        		                          alt="Follow me on Instagram"></a>
+        		          </div>
         		        </div>
         		    </div>
-        		</section>	</div>
+        		</section>
+        	</div>
         	<div id="divider">
         	</div>
         

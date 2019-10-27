@@ -10,5 +10,7 @@ enhanceContent();
 
 function enhanceContent() {
     document.querySelector('.portfolio-filters').style.display = 'block';
-    document.querySelector('.testimonials-button').style.display = 'block';
+    document.querySelectorAll('.testimonials-button').forEach((btn) => {
+      btn.style.display = 'block';
+    });
 }

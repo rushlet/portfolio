@@ -1,7 +1,7 @@
 .navBar {
     min-width: 100%;
     position: relative;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     padding: 0;
     margin-top: 0;
     @media screen and (min-width: $breakpoint) {
@@ -33,7 +33,6 @@
     margin-top: 0;
     padding-left: 0;
     padding-bottom: 0.5em;
-    background-color: $component-background;
     width: 100%;
     list-style-type: none;
 
@@ -47,13 +46,12 @@
         font-family: 'public', verdana, sans-serif;
         color: $primary;
         text-decoration: none;
-        transition: all .5s ease;
         font-weight: bold;
         text-transform: uppercase;
 
         &:hover {
-            color: $color3;
-            font-weight: 500;
+            color: $color1;
+            font-weight: bold;
             text-decoration: underline;
         }
     }

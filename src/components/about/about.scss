@@ -83,10 +83,11 @@
     }
 
     a {
-      color: $color1;
+      color: $primary;
     }
 
     a:hover {
       font-weight: bold;
+      color: $color1;
     }
 }

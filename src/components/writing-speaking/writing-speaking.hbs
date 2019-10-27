@@ -8,9 +8,9 @@
               Here are links to articles, blog posts and other bits I've written
             </p>
               <ul class="writing">
-                <li>thing 1</li>
-                <li>thing 2</li>
-                <li>thing 3</li>
+                {{#each writings}}
+                  {{> writing this}}
+                {{/each}}
               </ul>
           </div>
           <div class="speakings">
@@ -19,9 +19,9 @@
               I've had the pleasure of speaking at...
             </p>
               <ul class="writing">
-                <li>thing 1</li>
-                <li>thing 2</li>
-                <li>thing 3</li>
+                {{#each speakings}}
+                  {{> speaking this}}
+                {{/each}}
               </ul>
           </div>
         </div>

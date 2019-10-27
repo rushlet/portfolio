@@ -64,6 +64,37 @@
         "full-desc": []
     }
 ],
+"writings": [
+  {
+    "article": "test 1",
+    "link": ""
+  },
+  {
+    "article": "test 2",
+    "link": ""
+  },
+  {
+    "article": "test 3",
+    "link": ""
+  }
+],
+"speakings" : [
+  {
+    "event": "example 1",
+    "date": "14/09/2019",
+    "link": ""
+  },
+  {
+    "event": "example 2",
+    "date": "",
+    "link": ""
+  },
+  {
+    "event": "example 3",
+    "date": "",
+    "link": ""
+  }
+],
 "testimonials": [
   {
     "person": "Chris Ashton",

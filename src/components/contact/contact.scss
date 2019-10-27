@@ -8,7 +8,10 @@
 .social-media-links {
   margin-top: 3em;
   img {
-    max-width: 5em;
+    max-width: 3em;
+    @media (min-width: $breakpoint) {
+        max-width: 5em;
+    }
     &:hover {
       transform: rotate(-10deg);
       transition-duration: 0.25s;

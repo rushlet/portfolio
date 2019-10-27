@@ -1,9 +1,18 @@
 .testimonials-container {
   position: relative;
+  width: 100%;
 }
 
 .testimonials-button {
   height: 2em;
+  position: absolute;
+  top: 10rem;
+  background-color: rgba(0,0,0,0);
+  border: none;
+
+  @media (min-width: $breakpoint) {
+      top: 15rem
+  }
 
   &:hover {
     cursor: pointer;
@@ -14,13 +23,41 @@
   }
 }
 
-.testimonials-button.previous img {
-    transform: rotate(180deg);
+.testimonials-button.next {
+  right: 0;
+
+  @media (min-width: $breakpoint) {
+      right: 4em;
+  }
+}
+
+.testimonials-button.previous {
+  left: 0;
+
+  @media (min-width: $breakpoint) {
+      left: 3rem;
   }
 
-.testimonial {
+  img {
+    transform: rotate(180deg);
+  }
+}
+
+ul.testimonials {
+  padding-left: 0;
+  width: 80%;
+  margin: auto;
+  display: block;
+
+  @media (min-width: $breakpoint) {
+      width: 600px;
+  }
+}
+
+li.testimonial {
   list-style: none;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .testimonial--text {

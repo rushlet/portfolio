@@ -69,15 +69,16 @@ $portfolio-item-width: 25rem;
 }
 
 .portfolio-item--img {
-    max-width: 95%;
     max-width: 380px;
     max-height: 380px;
+    max-width: 95%;
 }
 
 .portfolio-item--title {
     color: $primary;
     margin: 0.5em;
     width: 380px;
+    max-width: 95%;
 }
 
 input[type=radio]:checked + li {

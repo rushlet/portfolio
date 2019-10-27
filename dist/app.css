@@ -214,7 +214,8 @@ h2.introText {
   grid-auto-rows: auto;
   justify-items: center;
   padding-left: 0;
-  position: relative; }
+  max-width: 650px;
+  margin: 0 auto; }
   @media (min-width: 48em) {
     .portfolio-filters ul {
       grid-template-columns: repeat(4, auto); } }
@@ -222,9 +223,16 @@ h2.introText {
 .portfolio-filters li {
   list-style-type: none; }
 
+.portfolio-filters--cta {
+  font-size: 1rem; }
+
+.portfolio-filter {
+  vertical-align: middle; }
+
 .portfolio-grid {
   max-width: 100%;
-  padding-left: 0; }
+  padding-left: 0;
+  position: relative; }
   @media (min-width: 48em) {
     .portfolio-grid {
       display: grid;
@@ -262,7 +270,7 @@ input[type=radio]:checked + li {
   background: green; }
 
 details[open] {
-  margin-bottom: 70rem; }
+  margin-bottom: 70em; }
 
 .details--container {
   width: 92vw;
@@ -274,7 +282,7 @@ details[open] {
   right: 0;
   padding-top: 1rem;
   background-color: #ffd128;
-  min-height: 68rem; }
+  min-height: 68em; }
   .details--container img {
     display: block;
     max-width: 85%;

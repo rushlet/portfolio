@@ -15,7 +15,8 @@ $portfolio-item-width: 25rem;
     grid-auto-rows: auto;
     justify-items: center;
     padding-left: 0;
-    position: relative;
+    max-width: 650px;
+    margin: 0 auto;
 
     @media (min-width: $breakpoint) {
         grid-template-columns: repeat(4, auto);
@@ -26,9 +27,18 @@ $portfolio-item-width: 25rem;
     list-style-type: none;
 }
 
+.portfolio-filters--cta {
+  font-size: 1rem;
+}
+
+.portfolio-filter {
+  vertical-align: middle;
+}
+
 .portfolio-grid {
     max-width: 100%;
     padding-left: 0;
+    position: relative;
 
     @media (min-width: $breakpoint) {
         display: grid;
@@ -75,7 +85,7 @@ input[type=radio]:checked + li {
 }
 
 details[open] {
-  margin-bottom: 70rem;
+  margin-bottom: 70em;
 }
 
 .details--container {
@@ -88,7 +98,7 @@ details[open] {
   right: 0;
   padding-top: 1rem;
   background-color: $background;
-  min-height: 68rem;
+  min-height: 68em;
 
   img {
     display: block;

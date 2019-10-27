@@ -63,5 +63,62 @@
         "mockup-img": "./assets/img/mockUps/trumpTalk-mockup.png",
         "full-desc": []
     }
+],
+"testimonials": [
+  {
+    "person": "Chris Ashton",
+    "job": "Senior Web Developer",
+    "company": "BBC News",
+    "image": "./assets/img/chris.jpg",
+    "link": "https://www.linkedin.com/in/chrisbashton/",
+    "testimonial": "Becky was able to build on her front-end knowledge and enthusiastically picked up new skills throughout her time as a trainee in Visual Journalism. After a few months she was as productive as any of our full-time developers"
+  },
+  {
+    "person": "Mat Cook",
+    "job": "Director",
+    "company": "CooktheRabbit Events",
+    "image": "./assets/img/mat.jpg",
+    "link": "https://uk.linkedin.com/in/mat-cook-ab358b2b",
+    "testimonial": "Becky is a wonderful person to work with and has been a great asset to all of the city event projects we have delivered. She is a natural problem solver and has shown a clear understanding of our needs as well as providing clever solutions when needed. She rocks!"
+  },
+  {
+    "person": "Liz Eeles",
+    "job": "Author",
+    "image": "./assets/img/liz.jpg",
+    "link": "https://www.linkedin.com/in/liz-eeles-b7544228/",
+    "testimonial": "I knew how I wanted my author website to look and work - but had no idea how to make it happen. Fortunately, Becky stepped in and created a website that I love. She talked me through the process, answered all my IT questions – even the daft ones – and provided great value for money."
+  },
+  {
+    "person": "Elsie Whittington",
+    "job": "PhD Student",
+    "company": "Sussex University",
+    "image": "./assets/img/elsie.jpg",
+    "link": "https://uk.linkedin.com/in/elsie-whittington-5785333b",
+    "testimonial": "Working with Becky to develop my website has been a really useful and positive experience. I found her to be patient and attentive to what I wanted from the website. I don't have a technical background so I was reassured by her use of simple, but not patronizing, language to explain to me what she was doing and if and how things may or may not work."
+  },
+  {
+    "person": "Vince Sears",
+    "job": "Chairman",
+    "company": "Field Marketing Solutions",
+    "image": "./assets/img/vince.jpg",
+    "link": "https://uk.linkedin.com/in/vince-sears-93773916",
+    "testimonial": "Accurate and creative work not usually found in one so young"
+  },
+  {
+    "person": "Jonathan Hitchens",
+    "job": "CEO",
+    "company": "TMC",
+    "image":"./assets/img/jonathan.jpg",
+    "link": "https://uk.linkedin.com/in/jonathan-hitchens-06963412",
+    "testimonial": "Rebecca was fundamental in the construction of many of our promotions and would make an excellent addition to any team."
+  },
+  {
+    "person": "Ross Sampson",
+    "job": "Founder",
+    "company": "RSS Solutions",
+    "image": "./assets/img/ross.jpg",
+    "link": "https://nl.linkedin.com/in/rosss",
+    "testimonial": "Becky is a joy to work with"
+  }
 ]
 }

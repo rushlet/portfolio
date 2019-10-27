@@ -31,6 +31,7 @@ body {
     padding: 0 0.5em;
     text-align: center;
     background: $background;
+    width: 100%;
 }
 
 section {
@@ -61,7 +62,13 @@ p {
 }
 
 a {
-    cursor: pointer;
+  color: $primary;
+  cursor: pointer;
+}
+
+a:hover {
+  font-weight: bold;
+  color: $color1;
 }
 
 .hide {

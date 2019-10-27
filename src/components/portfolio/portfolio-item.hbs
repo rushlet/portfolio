@@ -2,5 +2,17 @@
     <img src={{img-src}} class="portfolio-item--img">
     <h3 class="portfolio-item--title">{{title}}</h3>
     <p class="portfolio-item--description">{{desc}}</p>
-    <a class="portfolio-item--link" href={{link}}>Find out more</a>
+    <details class="portfolio-item--details">
+      <div class="details--container">
+        <img src={{mockup-img}} class="details--mockup-img">
+        {{#each full-desc as |para|}}
+            <p>
+              {{para}}
+            </p>
+        {{/each}}
+        {{#if link}}
+          <a class="portfolio-item--link" href={{link}}>See the project</a>
+        {{/if}}
+      </div>
+    </details>
 </div>

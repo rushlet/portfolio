@@ -22,33 +22,46 @@
         "title": "A visual analysis of UK number 1s",
         "img-src": "./assets/img/visual-analysis-uk-number1s.png",
         "filters": "webdevelopment webdesign misc",
-        "link": "UK-number-1s.html",
-        "desc": "lorem ipsum blah blah blah blah blah"
+        "desc": "lorem ipsum blah blah blah blah blah",
+        "link": "https://rushlet.github.io/ci301_data-vis/website/index.html",
+        "mockup-img": "./assets/img/mockUps/visual-analysis-of-uk-number-1s.png",
+        "full-desc": ["Spotify produces quantitative data for every song in their library on characteristics such as ‘danceability’, ‘valence’ and ‘energy’.",
+        "To give it contextualise this data, this project presents an analysis of songs which have reached number 1 in the UK charts. These are compared on attributes such as when they were number one or how long they were number 1 for.",
+        "The findings of this analysis are presented online, with interactive data visualisations created with JavaScript. An element of personalisation is added to the website by encouraging users to log in with their Spotify account to see how their favourite songs compare with those that have reached number 1.",
+        "The data was gathered using custom python and node scripts, it was then analysed using R. The website was built with JavaScript, Scrollama, D3, the Spotify Web API library as well as Webpack and Gulp. Unit tests were written for the site using Mocha and Chai, and further tests were conducted using Ruby & Cucumber."
+      ]
     }, {
         "title": "Climate change calculator",
         "img-src": "./assets/img/greendiet.png",
         "filters": "webdevelopment",
+        "desc": "lorem ipsum blah blah blah blah blah",
         "link": "UK-number-1s.html",
-        "desc": "lorem ipsum blah blah blah blah blah"
+        "mockup-img": "./assets/img/mockUps/climate-change-calculator.png",
+        "full-desc": []
     }, {
         "title": "Freedom trash can",
         "img-src": "./assets/img/trashcan.png",
         "filters": "webdevelopment",
+        "desc": "lorem ipsum blah blah blah blah blah",
         "link": "UK-number-1s.html",
-        "desc": "lorem ipsum blah blah blah blah blah"
+        "mockup-img": "./assets/img/mockUps/freedom-trashcan.png",
+        "full-desc": []
     }, {
         "title": "Croaked",
         "img-src": "./assets/img/croaked.png",
         "filters": "webdevelopment webdesign misc",
+        "desc": "lorem ipsum blah blah blah blah blah",
         "link": "UK-number-1s.html",
-        "desc": "lorem ipsum blah blah blah blah blah"
+        "mockup-img": "./assets/img/mockUps/croaked.png",
+        "full-desc": []
     }, {
         "title": "What has Trump said about your country?",
         "img-src": "./assets/img/bbc-trump-talk.png",
         "filters": "webdevelopment",
+        "desc": "lorem ipsum blah blah blah blah blah",
         "link": "UK-number-1s.html",
-        "desc": "lorem ipsum blah blah blah blah blah"
+        "mockup-img": "./assets/img/mockUps/trumpTalk-mockup.png",
+        "full-desc": []
     }
-],
-"test": "hello"
+]
 }

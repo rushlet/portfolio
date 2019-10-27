@@ -5,6 +5,7 @@ class PortfolioFilters {
         this.portfolioItems = document.querySelectorAll('.portfolio-item');
         this.filters.forEach((filter) => filter.addEventListener('change', this.filterItems.bind(this)));
         document.querySelector('#all').setAttribute('checked', true);
+        this.addDetailsEventListener();
     }
 
     getSelectedFilter() {
@@ -17,6 +18,20 @@ class PortfolioFilters {
         this.portfolioItems.forEach((item) => {
             (selectedFilter === 'all' || item.classList.contains(selectedFilter)) ? item.classList.remove('hide') : item.classList.add('hide');
         });
+    }
+
+    addDetailsEventListener() {
+      const details = document.querySelectorAll('.portfolio-item--details');
+      details.forEach((targetDetail) => {
+        targetDetail.addEventListener('click', () => {
+          // Close all the details that are not targetDetail.
+          details.forEach((detail) => {
+            if (detail !== targetDetail) {
+              detail.removeAttribute('open');
+            }
+          });
+        });
+      });
     }
 }
 

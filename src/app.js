@@ -1,10 +1,10 @@
 import PortfolioFilters from './components/portfolio/portfolio-filter';
 import About from './components/about/about';
+import Testimonials from './components/testimonials/testimonials';
 
 new About();
 new PortfolioFilters();
-const message = "HELLO!"
-console.log(`This is written in es6 and working. ${message}`);
+new Testimonials();
 
 enhanceContent();
 

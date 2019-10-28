@@ -1,4 +1,22 @@
 {
+  "me" : [
+    {
+      "img": "./assets/img/me/cropped.jpg",
+      "alt": "Photo of me, holding my laptop"
+    },
+    {
+      "img": "./assets/img/me/carnival-bizarre.jpg",
+      "alt": "Photo of me, in fancy dress - wearing a feathery headdress"
+    },
+    {
+      "img": "./assets/img/me/bbc-news.jpg",
+      "alt": "Photo of me, in the BBC News studio"
+    },
+    {
+      "img": "./assets/img/me/valencia.jpg",
+      "alt": "Photo of me, lying in the grass"
+    }
+  ],
     "filters": [
         {
             "filter": "all",
@@ -159,7 +177,7 @@
         "filters": "webdevelopment",
         "desc": "Compare airline's average flight delays on various routes",
         "link": "http://www.bbc.co.uk/news/business-40831970",
-        "mockup-img": "./assets/img/mockUps/flightDelats_mockup.png",
+        "mockup-img": "./assets/img/mockUps/flightDelays_mockup.png",
         "full-desc": ["One of my final projects whilst working as a trainee in Visual Journalism was 'How long could my summer holiday flight be delayed?'. I was a co-developer on this piece, which received almost 1.5 million hits on the first day it was published.",
           "Working with a team of journalists, a designer, and another developer, my role involved writing an algorithm to make sure the bars always fitted onscreen inline with the text, animating the carousel at the top using CSS and data handling, as well as building the majority of the project."]
     },

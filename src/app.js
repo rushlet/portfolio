@@ -9,9 +9,12 @@ new Testimonials();
 enhanceContent();
 
 function enhanceContent() {
-    document.querySelector('.portfolio-filters').style.display = 'block';
-    document.querySelectorAll('.testimonials-button').forEach((btn) => {
-      btn.style.display = 'block';
+    const filters = document.querySelector('.portfolio-filters');
+    const testimonialButtons = document.querySelectorAll('.testimonials-button');
+    const tweets = document.querySelectorAll('.tweet')
+    const els = [filters, ...testimonialButtons, ...tweets];
+    els.forEach((el) => {
+      el.style.display = 'block';
     });
     document.querySelectorAll('.no-js').forEach((el) => {
       el.classList.remove('no-js');

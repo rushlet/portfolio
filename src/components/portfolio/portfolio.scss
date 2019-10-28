@@ -11,7 +11,6 @@ $portfolio-item-width: 25rem;
 .portfolio-filters ul {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-column-gap: 1em;
     grid-auto-rows: auto;
     justify-items: center;
     padding-left: 0;
@@ -20,6 +19,7 @@ $portfolio-item-width: 25rem;
 
     @media (min-width: $breakpoint) {
         grid-template-columns: repeat(4, auto);
+        grid-column-gap: 1em;
     }
 }
 
@@ -105,7 +105,7 @@ details:hover {
   padding-top: 1rem;
   background-color: $background;
 
-  @media (min-width: $portfolio-item-width) {
+  @media (min-width: $breakpoint) {
       margin-top: 3em;
   }
 

@@ -90,7 +90,17 @@
         "The findings of this analysis are presented online, with interactive data visualisations created with JavaScript. An element of personalisation is added to the website by encouraging users to log in with their Spotify account to see how their favourite songs compare with those that have reached number 1.",
         "The data was gathered using custom python and node scripts, it was then analysed using R. The website was built with JavaScript, Scrollama, D3, the Spotify Web API library as well as Webpack and Gulp. Unit tests were written for the site using Mocha and Chai, and further tests were conducted using Ruby & Cucumber."
       ]
-    }, {
+    },
+    {
+        "title": "Noom: Dinks & Donks",
+        "img-src": "./assets/img/noom.png",
+        "filters": "misc",
+        "desc": "Immersive experience created for NASA Space Apps Challenge 2019",
+        "link": "https://bit.ly/noom-360",
+        "mockup-img": "./assets/img/mockUps/climate-change-calculator.png",
+        "full-desc": ["I took part in NASA Space Apps Challenge 2019, with two friends. We decided to tackle the 'Art side of the moon' challenge, ..."]
+    },
+    {
         "title": "BBC News: Climate change calculator",
         "img-src": "./assets/img/greendiet.png",
         "filters": "webdevelopment",
@@ -249,33 +259,32 @@
 ],
 "writings": [
   {
-    "article": "test 1",
-    "link": ""
+    "article": "A visual analysis of UK number 1s",
+    "link": "https://medium.com/@rushlet/a-visual-analysis-of-uk-number-1s-2cf6ae2a1602"
   },
   {
-    "article": "test 2",
-    "link": ""
-  },
-  {
-    "article": "test 3",
-    "link": ""
+    "article": "Making the Webpack i18n plugin play nicely with template strings and variables",
+    "link": "https://medium.com/@rushlet/making-the-webpack-i18n-plugin-play-nicely-with-template-strings-and-variables-cfda2ec25945"
   }
 ],
 "speakings" : [
   {
-    "event": "example 1",
-    "date": "14/09/2019",
-    "link": ""
+    "event": "BBC Tech Showcase - Ada Lovelace Day",
+    "date": "08/10/2019",
+    "link": "https://www.eventbrite.co.uk/e/a-bbc-tech-showcase-presented-by-women-driven-development-tickets-72915713863",
+    "tweet": "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>Learned about this awesome piece of climate change visual/data journalism from <a href='https://twitter.com/Rushlet_?ref_src=twsrc%5Etfw'>@Rushlet_</a> during <a href='https://twitter.com/hashtag/AdaLovelaceDay19?src=hash&amp;ref_src=twsrc%5Etfw'>#AdaLovelaceDay19</a> <a href='https://twitter.com/BBC?ref_src=twsrc%5Etfw'>@bbc</a><br><br>10/10 recommend. <a href='https://t.co/FZUgjXr54I'>https://t.co/FZUgjXr54I</a></p>&mdash; Kayla Shapiro (@okaylashapiro) <a href='https://twitter.com/okaylashapiro/status/1182355460231454726?ref_src=twsrc%5Etfw'>October 10, 2019</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
   },
   {
-    "event": "example 2",
-    "date": "",
-    "link": ""
+    "event": "Creative Coding London",
+    "date": "26/09/2019",
+    "link": "https://www.meetup.com/london-creative-coding/events/264715894/",
+    "tweet": "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>Had a brilliant time speaking at <a href='https://twitter.com/LDNCreativeCode?ref_src=twsrc%5Etfw'>@LDNCreativeCode</a> tonight at <a href='https://twitter.com/BBC?ref_src=twsrc%5Etfw'>@BBC</a> - showcasing some of <a href='https://twitter.com/BBCNewsGraphics?ref_src=twsrc%5Etfw'>@BBCNewsGraphics</a> experimental <a href='https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw'>#dataviz</a> projects and how we made them <a href='https://twitter.com/hashtag/a11y?src=hash&amp;ref_src=twsrc%5Etfw'>#a11y</a> friendly.<br>Thanks for having me! <a href='https://t.co/RRJg3lZCwk'>https://t.co/RRJg3lZCwk</a></p>&mdash; Becky Rush [Rushlet] (@Rushlet_) <a href='https://twitter.com/Rushlet_/status/1177346863957192705?ref_src=twsrc%5Etfw'>September 26, 2019</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
   },
   {
-    "event": "example 3",
-    "date": "",
-    "link": ""
+    "event": "Smashing Conf Warm up Party",
+    "date": "15/04/2019",
+    "link": "https://www.meetup.com/SmashingConf/events/258239197/",
+    "tweet": "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>Had a brilliant time speaking at <a href='https://twitter.com/smashingconf?ref_src=twsrc%5Etfw'>@smashingconf</a> warm up tonight, and really stoked my talk went down so well! Also, it was awesome to see so many women on the line up. Now I can relax and see what the next few days hold<a href='https://twitter.com/hashtag/smashingconf?src=hash&amp;ref_src=twsrc%5Etfw'>#smashingconf</a> <a href='https://twitter.com/hashtag/gdcfp?src=hash&amp;ref_src=twsrc%5Etfw'>#gdcfp</a> <a href='https://t.co/Uw55XYEvMF'>https://t.co/Uw55XYEvMF</a></p>&mdash; Becky Rush [Rushlet] (@Rushlet_) <a href='https://twitter.com/Rushlet_/status/1118015390892740613?ref_src=twsrc%5Etfw'>April 16, 2019</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
   }
 ],
 "testimonials": [

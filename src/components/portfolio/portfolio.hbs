@@ -2,8 +2,8 @@
     <h2>Portfolio</h2>
     <div class="portfolio-section">
         <div class="portfolio-filters" style="display:none">
-            <label class="portfolio-filters--cta">Use the radio buttons below to filter my work</label>
-            <ul>
+            <label id="filters-label" class="portfolio-filters--cta">Use the radio buttons below to filter my work</label>
+            <ul role="radiogroup" aria-labelledby="filters-label">
                 {{#each filters}}
                 <li>
                     {{> portfolio-filter this}}

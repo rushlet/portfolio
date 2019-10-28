@@ -11,7 +11,8 @@
 }
 
 .about-content--text {
-  p {
+  p,
+  ul {
     margin: 0.5rem;
   }
 
@@ -59,7 +60,7 @@
     }
 }
 
-.about-buttons {
+ul.about-buttons {
     display: block;
     padding: 0;
     text-align: center;

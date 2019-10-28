@@ -12,7 +12,7 @@ This is actually mostly to avoid busyness on the roads/darkness when I'm cycling
 Outside of these times if you ask me a question on Slack, I will try and respond in a vaguely helpful way.<br />
 
 ### What’s the best way to communicate with me?
-*Slack > in person > email > text (the old fashioned sort if you want me to reply fairly quickly because WhatsApp doesn't play nicely with my phone)*
+*Slack > in person > email > text
 
 Generally, **Slack is best**. Don't be offended if I don't reply straight away - I'm probably in the middle of something. 
 
@@ -29,7 +29,6 @@ Anything, really.
 * If you have a logic problem, I'd like to talk it out with you.
 * If you have a coding problem, I'm happy to take a look and see if we can figure it out together.
 * If you have a bug you can't fix, I want to figure it out (it makes me feel like a detective).
-* If you want to talk about usage data & istats, I'm your person (it's probably the detective thing again).
 
 ### What makes me grumpy?
 * People interrupting my conversations with others to 'ask a quick question' - what you have to say is no more or less important than the person I am talking to. Slack me, wait, or come back when I am free.
@@ -56,8 +55,8 @@ If you're code reviewing my work, please:
 
 ### Topics I’m always happy to talk about:
 * Music. Any recommendations? What gigs have you been to recently?
-* TV shows - from the ridiculously brilliant to the brilliantly ridiculous. I especially appreciate _those_ cop dramas (_Castle, Lucifer, The Mentalist,_ I'm looking at you)
-* Invitations & recommendations of things to see and do in London - I'm still really new here!
+* TV shows - from the ridiculously brilliant to the brilliantly ridiculous
+* Invitations & recommendations of things to see and do in London
 * The idiosyncrasies of the English language - why are you _on_ a plane but _in_ a taxi?
 * Where I should go on my next adventure
 

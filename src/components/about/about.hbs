@@ -1,0 +1,27 @@
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-content--text">
+                <p><span class="highlight">Hi!</span>
+                    I'm Becky Rush, a Brightonian web developer living in London.</p>
+                <p>I create engaging and interactive content for BBC News.</p>
+                <p>I specialise in Front End Web Development, tinkering with <span class="skills">HTML, CSS</span>
+                    and <span class="skills">JavaScript</span> to produce awesome web content.</p>
+                <p>I also have skills in <span class="skills">Data Gathering & Analysis, Digital Design,
+                    WordPress, Public Speaking, Copy Writing and Blogging.</span></p>
+
+                <ul class="about-buttons">
+                    <li><a href="assets/docs/CV-Oct2019-Online.pdf" target="_blank">See my CV</a></li>
+                    <li><a href="assets/docs/portfolio-download.pdf" target="_blank">Check out my downloadable portfolio</a></li>
+                </ul>
+            </div>
+            <div class="about-content--img" role="img" aria-label="a selection of photos of me">
+              {{#each me}}
+                {{> img this}}
+              {{/each}}
+                <button aria-label="Change image" class="about-content--img-shuffle">{{>shuffle-icon}}</button>
+            </div>
+        </div>
+    </div>
+</section>

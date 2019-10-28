@@ -1,6 +1,0 @@
-User-Agent: *
-Disallow: 
-Allow: /public_html
-Allow: /www
-
-Sitemap: http://www.rushlet.co.uk/sitemap.xml

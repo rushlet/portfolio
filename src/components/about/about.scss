@@ -1,0 +1,75 @@
+.about {
+  margin: auto;
+}
+
+.about-content {
+    @media screen and (min-width: $breakpoint) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.about-content--text {
+  p,
+  ul {
+    margin: 0.5rem;
+  }
+
+    @media screen and (min-width: $breakpoint) {
+        max-width: 40vw;
+        padding: 1em;
+        margin: 0 2em;
+    }
+}
+
+.about-content--img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: 2em auto 3.5em;
+
+    @media screen and (min-width: $breakpoint) {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.about-content--img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid $color1;
+}
+
+.about-content--img-shuffle {
+    width: 6em;
+    height: 3em;
+    background-color: $primary;
+    border-radius: 2em;
+    cursor: pointer;
+    display: block;
+    margin: 0.5em auto;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: $background;
+    }
+}
+
+ul.about-buttons {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-top: 2rem;
+    @media screen and (min-width: $breakpoint) {
+      text-align: left;
+    }
+
+    li {
+      list-style: none;
+    }
+}

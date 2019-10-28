@@ -97,8 +97,11 @@
         "filters": "misc",
         "desc": "Immersive experience created for NASA Space Apps Challenge 2019",
         "link": "https://bit.ly/noom-360",
-        "mockup-img": "./assets/img/mockUps/climate-change-calculator.png",
-        "full-desc": ["I took part in NASA Space Apps Challenge 2019, with two friends. We decided to tackle the 'Art side of the moon' challenge, ..."]
+        "mockup-img": "./assets/img/mockUps/noom.png",
+        "full-desc": ["I took part in NASA Space Apps Challenge 2019, with two friends. We decided to tackle the 'Art side of the moon' challenge, 'to create an artistic work to communicate, inform, or inspire others about humanity’s return to the moon'.",
+        "By combining the atmospheric aesthetic of space with the intricacies of sound, we wanted to capture people’s imagination, in order to inspire and educate about NASA’s past, present and future. We created an immersive 360 experience, available online and as VR. Visuals were created using NASA models, textures and our own artwork, accompanied by a piece of music we wrote which takes vocal clips to tell the story of our relationship with moon and space; from the launch of Apollo 11 to the plans for the first woman on the moon by 2024.",
+        "Rather than acting as a developer, this track is what I concentrated on creating. I used GarageBand to write the music, which is built up with instrumental tracks I wrote combined with curious space sounds available from the NASA audio library. I layered these with the different voice clips we had found to create an engaging and educational piece of music.",
+        "You can read more about the project on the <a href='https://2019.spaceappschallenge.org/challenges/our-moon/art-side-moon/teams/noom/project'>Space Apps Challenge website</a>."]
     },
     {
         "title": "BBC News: Climate change calculator",
@@ -141,13 +144,12 @@
     },
     {
         "title": "BBC News: Best place to be young",
-        "img-src": "./assets/img/nhstracker.png",
+        "img-src": "./assets/img/youthcalc.png",
         "filters": "webdevelopment",
-        "desc": "See how your local NHS trust is matching up to government targets",
+        "desc": "See how different area of the UK compare for young people",
         "link": "https://www.bbc.co.uk/news/health-41483322",
-        "mockup-img": "./assets/img/mockUps/nhs-tracker.png",
-        "full-desc": ["The tracker shows users how well their local health services are meeting the government targets for their area.",
-          "I was the lead developer on this interactive piece, updating the previous version for 2018 to include mental health figures. This was easier said than done, as mental health is funded slightly differently and therefore data is recorded differently, and different terminology is used. As part of this project, I was mentoring two junior developers. This involved pairing with them on certain aspects, assigning them their own tasks, being on hand to talk through any issues and provide code reviews. This was a challenge whilst juggling my own workload, but I received positive feedback from everybody involved."]
+        "mockup-img": "./assets/img/mockUps/youth-calculator.png",
+        "full-desc": ["I was co-developer on this interactive map and calculator. I worked primarily on the map section of the page - where users can type in their postcode or click an area on the map to see how it scored. This involved making our existing tile map work with new data and geojson, as well as adjusting the map controls for improved usability. I built and styled the results panel, making sure it was as accessible as possible in the time available."]
     },{
         "title": "Croaked",
         "img-src": "./assets/img/croaked.png",
@@ -246,11 +248,11 @@
     },
     {
         "title": "Up For It?",
-        "img-src": "./assets/img/bbc-trump-talk.png",
-        "filters": "webdevelopment",
+        "img-src": "./assets/img/up-for-it.png",
+        "filters": "webdevelopment webdesign",
         "desc": "Website showcasing outreach work in sexual health",
         "link": "UK-number-1s.html",
-        "mockup-img": "./assets/img/mockUps/trumpTalk-mockup.png",
+        "mockup-img": "./assets/img/mockUps/upforit-MockUp.png",
         "full-desc": ["This was a website I worked on for a client, Elsie, who was doing her PhD. She wanted a portfolio to showcase the different outreach work she had been doing, teaching young people about sexual health.",
           "I was given creative freedom, though worked closely with Elsie to discuss her ideas and implement them as best I could. I built the website from scratch, in HTML, CSS and JavaScript, using the Skeleton framework.",
           "I also dedicated time to optimising the SEO score of the site, testing it across multiple devices and conducting user testing."

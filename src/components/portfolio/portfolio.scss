@@ -74,11 +74,13 @@ $portfolio-item-width: 25rem;
     max-width: 95%;
 }
 
-.portfolio-item--title {
+.portfolio-item--title,
+.portfolio-item--description {
     color: $primary;
     margin: 0.5em;
     width: 380px;
     max-width: 95%;
+    text-align: center;
 }
 
 input[type=radio]:checked + li {
@@ -87,6 +89,10 @@ input[type=radio]:checked + li {
 
 details[open] {
   margin-bottom: 70em;
+}
+
+details:hover {
+  cursor: pointer;
 }
 
 .details--container {

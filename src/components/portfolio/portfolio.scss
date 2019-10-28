@@ -87,8 +87,8 @@ input[type=radio]:checked + li {
     background: green;
 }
 
-details[open] {
-  margin-bottom: 70em;
+.no-js details[open] {
+  margin-bottom: 52em;
 }
 
 details:hover {
@@ -97,7 +97,6 @@ details:hover {
 
 .details--container {
   width: 92vw;
-  margin: 1rem auto;
   display: block;
   overflow: hidden;
   position: absolute;
@@ -105,12 +104,15 @@ details:hover {
   right: 0;
   padding-top: 1rem;
   background-color: $background;
-  min-height: 68em;
+
+  @media (min-width: $portfolio-item-width) {
+      margin-top: 3em;
+  }
 
   img {
     display: block;
     max-width: 85%;
-    margin: auto;
+    margin: auto auto 1.5em;
   }
 
   a {
@@ -124,7 +126,21 @@ details:hover {
     color: $background;
   }
 
-  p {
+  p,
+  blockquote {
     margin-bottom: 0.5rem;
+    max-width: 85%;
+    max-width: 620px;
+    text-align: justify;
   }
+
+  blockquote {
+    padding-left: 1em;
+    margin: auto;
+  }
+}
+
+.no-js .details--container {
+  height: 50em;
+  overflow: scroll;
 }

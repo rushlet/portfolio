@@ -1,4 +1,4 @@
-class PortfolioFilters {
+class Portfolio {
     constructor() {
         console.log('constructing');
         this.filters = document.querySelectorAll('.filter-input');
@@ -24,10 +24,23 @@ class PortfolioFilters {
       const details = document.querySelectorAll('.portfolio-item--details');
       details.forEach((targetDetail) => {
         targetDetail.addEventListener('click', () => {
+          if (!targetDetail.hasAttribute('open')) {
+            // if opening detail
+            // calculate height of content & add this as margin to detail el
+            setTimeout(() => {
+              const height = targetDetail.querySelector('.details--container').offsetHeight;
+              console.log('height:', height);
+              targetDetail.style.marginBottom = `${height + 24}px`;
+            }, 100);
+          }
+          else {
+            targetDetail.style.marginBottom = '0px';
+          }
           // Close all the details that are not targetDetail.
           details.forEach((detail) => {
             if (detail !== targetDetail) {
               detail.removeAttribute('open');
+              detail.style.marginBottom = '0px';
             }
           });
         });
@@ -35,4 +48,4 @@ class PortfolioFilters {
     }
 }
 
-export default PortfolioFilters;
+export default Portfolio;

@@ -15,10 +15,18 @@
           </div>
           <div class="speakings">
             <h3>Speakings</h3>
+            {{#if future-speakings}}
+            <p>I'm excited to be speaking at...</p>
+              <ul class="speaking">
+                {{#each future-speakings}}
+                  {{> speaking this}}
+                {{/each}}
+              </ul>
+            {{/if}}
             <p>
               I've had the pleasure of speaking at...
             </p>
-              <ul class="writing">
+              <ul class="speaking">
                 {{#each speakings}}
                   {{> speaking this}}
                 {{/each}}

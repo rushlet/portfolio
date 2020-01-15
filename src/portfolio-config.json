@@ -37,23 +37,6 @@
     ],
     "items": [
       {
-        "title": "BBC News: Animated tour in 10 stops",
-        "img-src": "./assets/img/climate-change-calc.png",
-        "filters": "webdevelopment",
-        "desc": "Interactive article highlighting the impacts of climate change on a local level",
-        "link": "https://www.bbc.co.uk/news/resources/idt-985b9374-596e-4ae6-aa04-7fbcae4cb7ee",
-        "mockup-img": "./assets/img/mockUps/climate-change-chart.png",
-        "full-desc": [
-          "This was an in depth project looking at how climate change is predicted to impact temperatures in cities around the world.",
-          "I worked closely with our trainee developer, mentoring and learning from him throughout the process. We built the project using Handlebars, SASS, JS(ES6), Three.js and D3.",
-          "He was responsible for creating and optimising the globe using Three.js, whilst I concentrated on the scrolly chart section. I adapted the Pudding's Scrollama library to work with our bespoke internal scaffold, and gracefully degrade for older browsers (such as IE11). I built the chart using D3, with events to sync it up to the scrolly.",
-          "We concentrated on accessibility, making sure everybody would be able to engage with and enjoy the project. One of the ways we did this was by implementing an animation toggle, seen in the 'Gender pay gap' scrolly project previously. It was taken further this time - starting and stopping animations on multiple different elements using event emitters. We also synced it to the ‘prefers reduced motion’ option on user's devices - so if this is enabled, animations would automatically be disabled.",
-          "The project was translated into approximately 27 different languages. This meant it would be accessed by people all over the world, on different devices, connections and with differing amounts of data available. Therefore, we had to be mindful of performance. We did this in a variety of ways - from making sure all the images were optimised and lazy loaded, to chunking all the data for each city into individual files.",
-          "Another way we optimised the project was to create a great no javascript experience. All the main text content was still available, apart from the personalised city results. The interactive elements had some sort of fallback, and a message to upgrade your browser for the full experience. We also made sure that the lazy loaded images would still be visible if a user had disabled js using the noscript tags.",
-          "The project was a great success, seen by over 1.2 million people in the first 3 days and longlisted for an Kantar Information is Beautiful award."
-        ]
-      },
-      {
           "title": "BBC News: How much warmer is your city?",
           "img-src": "./assets/img/climate-change-calc.png",
           "filters": "webdevelopment",

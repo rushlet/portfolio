@@ -1,6 +1,6 @@
 {
-  "name": "project_scaffold",
-  "version": "1.0.0",
+  "name": "portfolio",
+  "version": "1.0.1",
   "description": "Set up environment for project development - including webpack, sass and hbs",
   "main": "./src/index.js",
   "env": "test",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rushlet/project_scaffold.git"
+    "url": "git+https://github.com/rushlet/portfolio.git"
   },
   "author": "Becky and Luke",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rushlet/project_scaffold/issues"
+    "url": "https://github.com/rushlet/portfolio/issues"
   },
-  "homepage": "https://github.com/rushlet/project_scaffold#readme",
+  "homepage": "https://github.com/rushlet/portfolio#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",

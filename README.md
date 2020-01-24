@@ -31,7 +31,6 @@ Anything, really.
 * If you have a bug you can't fix, I want to figure it out (it makes me feel like a detective).
 
 ### What makes me grumpy?
-* People interrupting my conversations with others to 'ask a quick question' - what you have to say is no more or less important than the person I am talking to. Slack me, wait, or come back when I am free.
 * Wet shoes
 * Being tired and hungry (I may not always realise this is the cause of my grumpiness)
 * Tiny pockets in women's jeans
@@ -51,7 +50,7 @@ If you're code reviewing my work, please:
 * Tell me if you see something you particularly like - an ego boost never hurts!
 
 ### One of my goals for the coming year:
-* Present at a conference (eek!)
+* Work abroad (even if just for a couple of weeks)
 
 ### Topics I’m always happy to talk about:
 * Music. Any recommendations? What gigs have you been to recently?

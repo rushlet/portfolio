@@ -270,20 +270,21 @@
   }
 ],
 "future-speakings" : [
-  {
-    "event": "BBC Tech Meetup",
-    "date": "21/01/2020",
-    "link": "https://www.meetup.com/BBC-Tech-Meetup/events/267319866/?_xtd=gqFyqTIzMzExNjg2MKFwp2FuZHJvaWQ&from=ref",
-    "tweet": "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>We&#39;re hosting a tech meetup at <a href='https://twitter.com/BBC?ref_src=twsrc%5Etfw'>@bbc</a> with <a href='https://twitter.com/Rushlet_?ref_src=twsrc%5Etfw'>@Rushlet_</a> <a href='https://twitter.com/AndyMSUK?ref_src=twsrc%5Etfw'>@AndyMSUK</a> <a href='https://twitter.com/em_atkins?ref_src=twsrc%5Etfw'>@Em_Atkins</a> and <a href='https://twitter.com/lukejacksonn?ref_src=twsrc%5Etfw'>@lukejacksonn</a> speaking about modern web development: <a href='https://t.co/mErEsXCohr'>https://t.co/mErEsXCohr</a></p>&mdash; George Bennett (@geeogi) <a href='https://twitter.com/geeogi/status/1215195969643565059?ref_src=twsrc%5Etfw'>January 9, 2020</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
-  },
+
+],
+"speakings" : [
   {
     "event": "Women Driven Development Conference",
     "date": "23/01/2020",
     "link": "https://www.eventbrite.co.uk/e/women-driven-development-conference-tickets-84582421299",
-    "tweet": "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>Another amazing speaker added to our <a href='https://twitter.com/hashtag/WDDConference?src=hash&amp;ref_src=twsrc%5Etfw'>#WDDConference</a> lineup is <a href='https://twitter.com/Rushlet_?ref_src=twsrc%5Etfw'>@Rushlet_</a>, software engineer at <a href='https://twitter.com/BBC?ref_src=twsrc%5Etfw'>@BBC</a> who will be giving us a peek into work &amp; data visualisation around the General Election.<br>Grab a ticket to the conference (free to attend) here <a href='https://t.co/ONuMyLbRsR'>https://t.co/ONuMyLbRsR</a><a href='https://twitter.com/hashtag/TechItForward?src=hash&amp;ref_src=twsrc%5Etfw'>#TechItForward</a></p>&mdash; Women Driven Development (@womendrivendev) <a href='https://twitter.com/womendrivendev/status/1209171551821737985?ref_src=twsrc%5Etfw'>December 23, 2019</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
-  }
-],
-"speakings" : [
+    "tweet": "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>Had a fantastic day at the first <a href='https://twitter.com/hashtag/WDDConference?src=hash&amp;ref_src=twsrc%5Etfw'>#WDDConference</a> - thanks to all the lovely people who said nice things after my talk and to all the other inspiring speakers on the line up. Fantastic work <a href='https://twitter.com/womendrivendev?ref_src=twsrc%5Etfw'>@womendrivendev</a> - looking forward to the next one (and thanks for the pre-talk prosecco!) <a href='https://t.co/7Lu9pJnLpb'>https://t.co/7Lu9pJnLpb</a></p>&mdash; Becky Rush [Rushlet] (@Rushlet_) <a href='https://twitter.com/Rushlet_/status/1220438944132796421?ref_src=twsrc%5Etfw'>January 23, 2020</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
+  },
+  {
+    "event": "BBC Tech Meetup",
+    "date": "21/01/2020",
+    "link": "https://www.meetup.com/BBC-Tech-Meetup/events/267319866/?_xtd=gqFyqTIzMzExNjg2MKFwp2FuZHJvaWQ&from=ref",
+    "tweet": "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>Loved your talk and the projects you showed! Made me want to become a visual developer even more. Thanks!</p>&mdash; Sarah Soutoul 👩‍💻 (@sarah_soutoul) <a href='https://twitter.com/sarah_soutoul/status/1219958371664781317?ref_src=twsrc%5Etfw'>January 22, 2020</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
+  },
   {
     "event": "BBC Tech Showcase - Ada Lovelace Day",
     "date": "08/10/2019",

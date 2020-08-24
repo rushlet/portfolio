@@ -9,6 +9,7 @@ const dirs = readdirSync(source).map(name => path.join(source, name)).filter(isD
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const debug = process.env.NODE_ENV !== "production";
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
 
 module.exports = {
 	entry: {
@@ -67,6 +68,7 @@ module.exports = {
             { from: './src/assets/img', to: './assets/img' },
             { from: './src/assets/docs', to: './assets/docs' },
         ]),
+        new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'index.hbs'),
             title: 'Webpack project set up', // needs updating with each project!

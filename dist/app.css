@@ -276,18 +276,22 @@ input[type=radio]:checked + li {
 .no-js details[open] {
   margin-bottom: 52em; }
 
+.no-js .details--container {
+  overflow-y: scroll; }
+
 details:hover {
   cursor: pointer; }
 
 .details--container {
-  width: 92vw;
+  width: 100vw;
   display: block;
   overflow: hidden;
   position: absolute;
   left: 0;
   right: 0;
   padding-top: 1rem;
-  background-color: #ffd128; }
+  background-color: #ffd128;
+  pointer-events: none; }
   @media (min-width: 48em) {
     .details--container {
       margin-top: 3em; } }

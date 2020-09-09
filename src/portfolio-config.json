@@ -1,6 +1,10 @@
 {
   "me" : [
     {
+      "img": "./assets/img/me/me_opt.jpg",
+      "alt": "Photo of me, against a wooden wall"
+    },
+    {
       "img": "./assets/img/me/cropped.jpg",
       "alt": "Photo of me, holding my laptop"
     },
@@ -49,7 +53,32 @@
             "We concentrated on accessibility, making sure everybody would be able to engage with and enjoy the project. One of the ways we did this was by implementing an animation toggle, seen in the 'Gender pay gap' scrolly project previously. It was taken further this time - starting and stopping animations on multiple different elements using event emitters. We also synced it to the ‘prefers reduced motion’ option on user's devices - so if this is enabled, animations would automatically be disabled.",
             "The project was translated into approximately 27 different languages. This meant it would be accessed by people all over the world, on different devices, connections and with differing amounts of data available. Therefore, we had to be mindful of performance. We did this in a variety of ways - from making sure all the images were optimised and lazy loaded, to chunking all the data for each city into individual files.",
             "Another way we optimised the project was to create a great no javascript experience. All the main text content was still available, apart from the personalised city results. The interactive elements had some sort of fallback, and a message to upgrade your browser for the full experience. We also made sure that the lazy loaded images would still be visible if a user had disabled js using the noscript tags.",
-            "The project was a great success, seen by over 1.2 million people in the first 3 days and longlisted for an Kantar Information is Beautiful award."        ]
+            "The project was a great success, seen by over 1.2 million people in the first 3 days and longlisted for an Kantar Information is Beautiful award."
+          ]
+      },
+      {
+          "title": "BBC News: Coronavirus architecture",
+          "img-src": "./assets/img/architecture.png",
+          "filters": "webdevelopment",
+          "desc": "How might offices and homes look after the 2020 pandemic?",
+          "link": "https://www.bbc.co.uk/news/resources/idt-dc2d6e2d-3ab4-42de-8d03-bb7eda5fff8e",
+          "mockup-img": "./assets/img/mockUps/architecture.png",
+          "full-desc": ["A scrollytelling article looking at how our working lives might change in the future as a result of the pandemic.",
+            "I worked closely with another developer to create this article, which follows Laila through a typical day in her working life in 2025. As the user scrolls down, different areas of her office and home are highlighted as we discuss what new measures have been put in place to make them safer.",
+            "The article proved very popular - reaching over 2 million page views in the first 3 days of publication."
+          ]
+      },
+      {
+          "title": "BBC News: How a single locust becomes a plague",
+          "img-src": "./assets/img/locusts.png",
+          "filters": "webdevelopment",
+          "desc": "Scrollytelling article showing how swarms of locusts are devastating people's homes",
+          "link": "https://www.bbc.co.uk/news/resources/idt-84994842-8967-4dfd-9490-10f805de9f68",
+          "mockup-img": "./assets/img/mockUps/locusts.png",
+          "full-desc": ["This was a scrollytelling project making use of CSS animations, REGL and D3.",
+            "As you scroll through the article, you see the physiological changes a locust goes through when they start swarming. Thousands of dots plague the screen to represent the sheer density of locusts in a swarm, which transition into a chart displaying when recent plagues have occurred.",
+            "As this project was going out in multiple languages, we were careful to consider the varying needs of the users. We were sure to include a non-animated version of the article, which can be accessed with a toggle at the top. Furthermore, if a user has deactivated JavaScript, they get a small CSS animated swarm as a fallback."
+          ]
       },
       {
           "title": "BBC News: Poll tracker 2019/2020",
@@ -60,9 +89,9 @@
           "mockup-img": "./assets/img/mockUps/polltracker.png",
           "full-desc": ["A project showing how each of the UK political parties are performing in the polls, built using JS (ES6), D3, Handlebars and Sass.",
             "I focused more effort on the back-end of this project than we usually do for Visual Journalism projects.",
-            "For the core content / fallback, we decided to output a screenshot of the graph, to give users as full an experience as possible. I wrote a Node script to use Puppeteer to go to the project, take a screenshot of the graph at different viewport dimensions and save these locally. They are then pulled in as a fallback image for the graph.",
+            "For the no-javascript version, we decided to output a screenshot of the graph, to give users as full an experience as possible. I wrote a Node script to use Puppeteer to go to the project, take a screenshot of the graph at different viewport dimensions and save these locally. They are then pulled in as a fallback image for the graph.",
             "We have one large dataset powering the three visual products on the page (the chart, the pictogram and the table of polls). This needs to be transformed and manipulated differently for each product. I worked with the data team to help them write JavaScript to filter and manipulate the data, which we could then run as a Node script during the build process. We could then format the resulting dataset how we needed for each product and output it as separate JSON files locally to the project.",
-            "We developed an auto deployment strategy, so the poll tracker could be updated out of hours without the need for a developer. </br> I used an AWS Lambda, running every minute, to check the data against a local copy to see if it had been updated. If it had, it would then trigger a Jenkins job. Jenkins would build the project, run the data formatting tasks and generate an updated screenshot for the fallback content. I configured it to notify a Slack channel with it's progress - particularly focussing on descriptive erorr messages. This would allow the journalists to know if something went wrong. If it was successful, Jenkins would then deploy the project.",
+            "I developed an auto deployment strategy, so the poll tracker could be updated out of hours without the need for a developer. </br> I used an AWS Lambda, running every minute, to check the data against a local copy to see if it had been updated. If it had, it would then trigger a Jenkins job. Jenkins would build the project, run the data formatting tasks and generate an updated screenshot for the fallback content. I configured it to notify a Slack channel with it's progress - particularly focussing on descriptive erorr messages. This would allow the journalists to know if something went wrong. If it was successful, Jenkins would then deploy the project.",
             "We wrote some unit tests to accompany this data formatting to make sure the data being pulled in and being outputted was how we expected it to be formatted and the values were within expected ranges. This was especially important because the auto deployment solution meant less manual checking / testing than when a project is usually updated."
         ]
       },
@@ -112,7 +141,8 @@
         "mockup-img": "./assets/img/mockUps/climate-change-calculator.png",
         "full-desc": ["The project showcases the climate impact of the foods we eat. The user can select a food from our list and indicate how often they eat it. They are then shown how their choices impact the environment, putting emissions into context by comparing them to flights or water usage to showers. A graph is displayed comparing the food to similar items, and the user can select another item from a random selection on the shelf at the bottom of the interactive.",
           "This was a project in which we were encouraging our graduate developer to take the lead. My role was to support him as best I could, by doing code reviews, talking through decisions and doing the tasks he assigned to me. I took primary responsibility for the styling and accessibility of the project. This included making sure the 'choose another item' section met the designers specifications whilst also being usable for keyboard only users or those using screen readers to access the article."]
-    }, {
+    },
+    {
         "title": "BBC News: Freedom trash can",
         "img-src": "./assets/img/trashcan.png",
         "filters": "webdevelopment",
@@ -133,24 +163,6 @@
           "I was the lead developer on this interactive piece, updating the previous version for 2018 to include mental health figures. This was easier said than done, as mental health is funded slightly differently and therefore data is recorded differently, and different terminology is used. As part of this project, I was mentoring two junior developers. This involved pairing with them on certain aspects, assigning them their own tasks, being on hand to talk through any issues and provide code reviews. This was a challenge whilst juggling my own workload, but I received positive feedback from everybody involved."]
     },
     {
-        "title": "BBC News: Gender pay gap calculator",
-        "img-src": "./assets/img/gpg.png",
-        "filters": "webdevelopment",
-        "desc": "See how your company's gender pay gap compares",
-        "link": "https://www.bbc.co.uk/news/science-environment-46459714",
-        "mockup-img": "./assets/img/mockUps/gender-pay-gap.png",
-        "full-desc": ["This project highlights the gender pay gap across a number of companies as of 2019.",
-          "I was part of a team of 3 developers working on the project due to a short deadline. I was primarily responsible for displaying and styling the text, making sure it was formatted correctly and doing any necessary calculations. Due to the number of people working on the project, I also took it upon myself to take lead on some of the project management aspects - making sure tasks were broken down and assigned to each person, and collaborating with editorial to make sure each task was clear and prioritised."]
-    },
-    {
-        "title": "BBC News: Best place to be young",
-        "img-src": "./assets/img/youthcalc.png",
-        "filters": "webdevelopment",
-        "desc": "See how different area of the UK compare for young people",
-        "link": "https://www.bbc.co.uk/news/health-41483322",
-        "mockup-img": "./assets/img/mockUps/youth-calculator.png",
-        "full-desc": ["I was co-developer on this interactive map and calculator. I worked primarily on the map section of the page - where users can type in their postcode or click an area on the map to see how it scored. This involved making our existing tile map work with new data and geojson, as well as adjusting the map controls for improved usability. I built and styled the results panel, making sure it was as accessible as possible in the time available."]
-    },{
         "title": "Croaked",
         "img-src": "./assets/img/croaked.png",
         "filters": "webdevelopment webdesign misc",
@@ -174,16 +186,6 @@
           "My manager had this to say about the project: <blockquote>Becky was the lead developer on the 'What has President Trump said about your country?' project. It was very popular, and technically is one of our best examples of progressive enhancement. It was built to be accessible and reusable - and Becky was so ahead of the deadline that she was able to write integration tests for it using Ruby and Cucumber.</blockquote>"]
     },
     {
-        "title": "BBC News: Which world leader are you?",
-        "img-src": "./assets/img/bbc-world-leaders.png",
-        "filters": "webdevelopment",
-        "desc": "Which world leader are you most like?",
-        "link": "http://www.bbc.co.uk/news/world-37833792",
-        "mockup-img": "./assets/img/mockUps/world-leaders__MockUp.png",
-        "full-desc": ["This was the first big project I helped develop whilst working in Visual Journalism at BBC News. I was part of a small team including a journalist, designer, project manager and another developer. I worked closely with the more senior developer to create this interactive feature; a global data project, published in over 20 languages on the BBC News website which compared the user to 180 world leaders on factors such as age and education.",
-        "I was responsible for building and implementing the graphs, charts and slow reveal using vanilla JavaScript, HTML and CSS. I also took on styling the page for right to left reading languages and inserting SVGs created by our dedicated designer. We worked together with a tester to find issues with the interactive displaying across various devices and browsers and fix as many as possible before the go-live date. It was a tense and exciting project in which I learnt a lot. I have written a blog post on the experience, if you would like to find out more."]
-    },
-    {
         "title": "BBC News: How long could my summer flight be delayed?",
         "img-src": "./assets/img/bbc-flights1.png",
         "filters": "webdevelopment",
@@ -194,29 +196,6 @@
           "Working with a team of journalists, a designer, and another developer, my role involved writing an algorithm to make sure the bars always fitted onscreen inline with the text, animating the carousel at the top using CSS and data handling, as well as building the majority of the project."]
     },
     {
-        "title": "BBC News: 6 things that could topple Trump's border wall",
-        "img-src": "./assets/img/bbc-trump-wall.png",
-        "filters": "webdevelopment",
-        "desc": "Interactive article discussing the issues affecting Trump's plan for a border wall",
-        "link": "https://www.bbc.co.uk/news/resources/idt-d60acebe-2076-4bab-90b4-0e9a5f62ab12",
-        "mockup-img": "./assets/img/mockUps/trumpWall.png",
-        "full-desc": ["I was co-developer on this interactive piece, discussing what obstacles Trump may encouter in building the US/Mexico border wall. My role was to support the lead developer in building this long form article, working alongside two journalists and a designer.",
-          "For this project, we were using a content framework built by one of the senior developers in our team. This was one of the first projects we had used it for, so we were still getting to grips with it. We created components which make up the article - such as a video, an image or a quote section - with Handlebars, JavaScript and SASS and released them via our NPM repo. This allowed us to easily install them and adapt them for our specific use cases. I took responsibility for ensuring that users accessing the story from older browsers (such as IE8), or with JavaScript turned off, would still have an engaging experience - with as many assets working as possible. I also wrote a few grunt scripts to handle various tasks we needed to cover in the process.",
-          "The article was released across the BBC World Service sites, in 10 different languages."
-        ]
-    },
-    {
-        "title": "Kemp Town Carnival website",
-        "img-src": "./assets/img/ktc.png",
-        "filters": "webdevelopment webdesign",
-        "desc": "Wordpress website for a much loved Brighton community event",
-        "link": "http://kemptowncarnival.com/",
-        "mockup-img": "./assets/img/mockUps/ktc.png",
-        "full-desc": ["Kemp Town Carnival is a Brighton based free community event. I was asked to redesign the existing WordPress site, to make it easier for the team to update and to make it more aesthetically engaging for users visiting the site. I worked closesly with Mat, the organiser, alongside a designer and digital marketer, to discuss how we felt the site should be laid out.",
-          "I had a very short period of time to build the new site, so I opted to use the existing WordPress site but change the theme, add a variety of plugins and write a significant amount of custom CSS and JavaScript. The team were very pleased with the website I produced, which included all the features we had wanted initially - a latest news page, a 'subscribe to newsletter' widget and a design which is unified with other products associated with the event."
-        ]
-    },
-    {
         "title": "Liz Eeles website",
         "img-src": "./assets/img/liz-eeles.png",
         "filters": "webdevelopment webdesign",
@@ -225,41 +204,13 @@
         "mockup-img": "./assets/img/mockUps/liz-eeles.png",
         "full-desc": ["I worked closely with Liz over an extended period of time to build a simple website to promote her holiday romance novels and showcase blog posts.",
           "I opted to build the site using WordPress to allow Liz to later update it easily for herself - adding blog posts and new books. To make it bespoke to Liz's ideas of how she wanted it to look, I adapted an existing theme with a significant amount of custom CSS and JavaScript."]
-    },
-    {
-        "title": "BBC News: Coffee under threat",
-        "img-src": "./assets/img/bbc-coffee.png",
-        "filters": "webdevelopment",
-        "desc": "How is climate change impacting coffee production?",
-        "link": "http://www.bbc.co.uk/news/resources/idt-fa38cb91-bdc0-4229-8cae-1d5c3b447337",
-        "mockup-img": "./assets/img/mockUps/coffee.png",
-        "full-desc": ["I worked closely with a BBC Journalist to create this article page about a study released on the effect of climate change on coffee production. I built the page using our team's internal content framework, which involved writing code in Handlebars, SASS and JavaScript.",
-          "One interesting challenge with this project was that it used content that was under embargo. This meant we couldn't build or test it with the final assets or translations (it was being released in 10 languages). Although this was potentially problematic, we successfully used palceholder assets and text until the embargo deadline and then worked quickly to replace the content, re-test it and publish the article."]
-    },
-    {
-        "title": "Don't Panic",
-        "img-src": "./assets/img/dont-panic.png",
-        "filters": "webdevelopment webdesign",
-        "desc": "An online mobile game",
-        "link": "https://rushlet.github.io/ci328-coursework/",
-        "mockup-img": "./assets/img/mockUps/dont-panic.png",
-        "full-desc": ["Don’t Panic is an Endless Runner style game, inspired by ‘Hitchhiker’s Guide to the Galaxy’, designed to be played on desktop or mobile. The user plays as a rocket, using arrow keys or by pressing on the side of the screen to travel towards to navigate through outer space - avoiding alien abductions and collecting coins. The player is armed with a Random Reassignment Button - inspired by Douglas Adams’ Infinite Improbability Drive (though with far less possibilities) when it's ready to be activated, it will appear in the bottom right hand corner. Clicking on it could trigger regeneration into a different galaxy or maybe even the spontaneous apparition of a bowl of flowers.",
-          "I wrote the game using JavaScript, incluing the Phaser.js library."]
-    },
-    {
-        "title": "Up For It?",
-        "img-src": "./assets/img/up-for-it.png",
-        "filters": "webdevelopment webdesign",
-        "desc": "Website showcasing outreach work in sexual health",
-        "link": "UK-number-1s.html",
-        "mockup-img": "./assets/img/mockUps/upforit-MockUp.png",
-        "full-desc": ["This was a website I worked on for a client, Elsie, who was doing her PhD. She wanted a portfolio to showcase the different outreach work she had been doing, teaching young people about sexual health.",
-          "I was given creative freedom, though worked closely with Elsie to discuss her ideas and implement them as best I could. I built the website from scratch, in HTML, CSS and JavaScript, using the Skeleton framework.",
-          "I also dedicated time to optimising the SEO score of the site, testing it across multiple devices and conducting user testing."
-        ]
     }
 ],
 "writings": [
+  {
+    "article": "How much warmer is your city? Behind the scenes of our climate change interactive",
+    "link": "https://medium.com/@bbc_visual_and_data_journalism/how-much-warmer-is-your-city-behind-the-scenes-of-our-climate-change-interactive-7d97673b8121"
+  },
   {
     "article": "A visual analysis of UK number 1s",
     "link": "https://medium.com/@rushlet/a-visual-analysis-of-uk-number-1s-2cf6ae2a1602"
@@ -270,7 +221,6 @@
   }
 ],
 "future-speakings" : [
-
 ],
 "speakings" : [
   {

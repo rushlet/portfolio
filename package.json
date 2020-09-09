@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/rushlet/portfolio.git"
   },
-  "author": "Becky and Luke",
+  "author": "Becky Rush",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rushlet/portfolio/issues"
@@ -41,6 +41,7 @@
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
-    "clean-webpack-plugin": "^2.0.2"
+    "clean-webpack-plugin": "^2.0.2",
+    "imagemin-webpack-plugin": "^2.4.2"
   }
 }

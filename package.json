@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Set up environment for project development - including webpack, sass and hbs",
   "main": "./src/index.js",
   "env": "test",

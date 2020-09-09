@@ -2,7 +2,6 @@ class About {
     constructor() {
         this.aboutShuffleBtn = document.querySelector('.about-content--img-shuffle');
         this.aboutImgs = document.querySelectorAll('.img-me');
-        console.log('about imgs', this.aboutImgs);
         this.aboutShuffleBtn.addEventListener('click', this.shuffleImg.bind(this));
     }
 

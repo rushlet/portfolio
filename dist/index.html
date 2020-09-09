@@ -39,12 +39,13 @@
         	                    WordPress, Public Speaking, Copy Writing and Blogging.</span></p>
         	
         	                <ul class="about-buttons">
-        	                    <li><a href="assets/docs/CV-Oct2019-Online.pdf" target="_blank">See my CV</a></li>
-        	                    <li><a href="assets/docs/portfolio-download.pdf" target="_blank">Check out my downloadable portfolio</a></li>
+        	                    <li><a href="assets/docs/Online-CV-Aug-2020_compressed.pdf" target="_blank">See my CV</a></li>
+        	                    <li><a href="assets/docs/graphic-portfolio_compressed.pdf" target="_blank">Check out my downloadable portfolio</a></li>
         	                </ul>
         	            </div>
         	            <div class="about-content--img" role="img" aria-label="a selection of photos of me">
-        	                <img class="img-me" loading="lazy" alt=Photo of me, holding my laptop src=./assets/img/me/cropped.jpg  style="display:block" >
+        	                <img class="img-me" loading="lazy" alt=Photo of me, against a wooden wall src=./assets/img/me/me_opt.jpg  style="display:block" >
+        	                <img class="img-me" loading="lazy" alt=Photo of me, holding my laptop src=./assets/img/me/cropped.jpg  style="display:none" >
         	                <img class="img-me" loading="lazy" alt=Photo of me, in fancy dress - wearing a feathery headdress src=./assets/img/me/carnival-bizarre.jpg  style="display:none" >
         	                <img class="img-me" loading="lazy" alt=Photo of me, in the BBC News studio src=./assets/img/me/bbc-news.jpg  style="display:none" >
         	                <img class="img-me" loading="lazy" alt=Photo of me, lying in the grass src=./assets/img/me/valencia.jpg  style="display:none" >
@@ -133,6 +134,52 @@
         	            </li>
         	            <li class="portfolio-item webdevelopment">
         	                <div class="portfolio-item--container no-js">
+        	                    <img src=./assets/img/architecture.png class="portfolio-item--img" loading="lazy" alt="">
+        	                    <h3 class="portfolio-item--title">BBC News: Coronavirus architecture</h3>
+        	                    <p class="portfolio-item--description">How might offices and homes look after the 2020 pandemic?</p>
+        	                    <details class="portfolio-item--details">
+        	                      <summary>Find out more</summary>
+        	                      <div class="details--container">
+        	                        <img src=./assets/img/mockUps/architecture.png class="details--mockup-img" loading="lazy" alt="">
+        	                            <p>
+        	                              A scrollytelling article looking at how our working lives might change in the future as a result of the pandemic.
+        	                            </p>
+        	                            <p>
+        	                              I worked closely with another developer to create this article, which follows Laila through a typical day in her working life in 2025. As the user scrolls down, different areas of her office and home are highlighted as we discuss what new measures have been put in place to make them safer.
+        	                            </p>
+        	                            <p>
+        	                              The article proved very popular - reaching over 2 million page views in the first 3 days of publication.
+        	                            </p>
+        	                          <a class="portfolio-item--link" href=https://www.bbc.co.uk/news/resources/idt-dc2d6e2d-3ab4-42de-8d03-bb7eda5fff8e>See the project</a>
+        	                      </div>
+        	                    </details>
+        	                </div>
+        	            </li>
+        	            <li class="portfolio-item webdevelopment">
+        	                <div class="portfolio-item--container no-js">
+        	                    <img src=./assets/img/locusts.png class="portfolio-item--img" loading="lazy" alt="">
+        	                    <h3 class="portfolio-item--title">BBC News: How a single locust becomes a plague</h3>
+        	                    <p class="portfolio-item--description">Scrollytelling article showing how swarms of locusts are devastating people&#x27;s homes</p>
+        	                    <details class="portfolio-item--details">
+        	                      <summary>Find out more</summary>
+        	                      <div class="details--container">
+        	                        <img src=./assets/img/mockUps/locusts.png class="details--mockup-img" loading="lazy" alt="">
+        	                            <p>
+        	                              This was a scrollytelling project making use of CSS animations, REGL and D3.
+        	                            </p>
+        	                            <p>
+        	                              As you scroll through the article, you see the physiological changes a locust goes through when they start swarming. Thousands of dots plague the screen to represent the sheer density of locusts in a swarm, which transition into a chart displaying when recent plagues have occurred.
+        	                            </p>
+        	                            <p>
+        	                              As this project was going out in multiple languages, we were careful to consider the varying needs of the users. We were sure to include a non-animated version of the article, which can be accessed with a toggle at the top. Furthermore, if a user has deactivated JavaScript, they get a small CSS animated swarm as a fallback.
+        	                            </p>
+        	                          <a class="portfolio-item--link" href=https://www.bbc.co.uk/news/resources/idt-84994842-8967-4dfd-9490-10f805de9f68>See the project</a>
+        	                      </div>
+        	                    </details>
+        	                </div>
+        	            </li>
+        	            <li class="portfolio-item webdevelopment">
+        	                <div class="portfolio-item--container no-js">
         	                    <img src=./assets/img/polltracker.png class="portfolio-item--img" loading="lazy" alt="">
         	                    <h3 class="portfolio-item--title">BBC News: Poll tracker 2019/2020</h3>
         	                    <p class="portfolio-item--description">Compare how the UK political parties are performing in the polls</p>
@@ -147,13 +194,13 @@
         	                              I focused more effort on the back-end of this project than we usually do for Visual Journalism projects.
         	                            </p>
         	                            <p>
-        	                              For the core content / fallback, we decided to output a screenshot of the graph, to give users as full an experience as possible. I wrote a Node script to use Puppeteer to go to the project, take a screenshot of the graph at different viewport dimensions and save these locally. They are then pulled in as a fallback image for the graph.
+        	                              For the no-javascript version, we decided to output a screenshot of the graph, to give users as full an experience as possible. I wrote a Node script to use Puppeteer to go to the project, take a screenshot of the graph at different viewport dimensions and save these locally. They are then pulled in as a fallback image for the graph.
         	                            </p>
         	                            <p>
         	                              We have one large dataset powering the three visual products on the page (the chart, the pictogram and the table of polls). This needs to be transformed and manipulated differently for each product. I worked with the data team to help them write JavaScript to filter and manipulate the data, which we could then run as a Node script during the build process. We could then format the resulting dataset how we needed for each product and output it as separate JSON files locally to the project.
         	                            </p>
         	                            <p>
-        	                              We developed an auto deployment strategy, so the poll tracker could be updated out of hours without the need for a developer. </br> I used an AWS Lambda, running every minute, to check the data against a local copy to see if it had been updated. If it had, it would then trigger a Jenkins job. Jenkins would build the project, run the data formatting tasks and generate an updated screenshot for the fallback content. I configured it to notify a Slack channel with it's progress - particularly focussing on descriptive erorr messages. This would allow the journalists to know if something went wrong. If it was successful, Jenkins would then deploy the project.
+        	                              I developed an auto deployment strategy, so the poll tracker could be updated out of hours without the need for a developer. </br> I used an AWS Lambda, running every minute, to check the data against a local copy to see if it had been updated. If it had, it would then trigger a Jenkins job. Jenkins would build the project, run the data formatting tasks and generate an updated screenshot for the fallback content. I configured it to notify a Slack channel with it's progress - particularly focussing on descriptive erorr messages. This would allow the journalists to know if something went wrong. If it was successful, Jenkins would then deploy the project.
         	                            </p>
         	                            <p>
         	                              We wrote some unit tests to accompany this data formatting to make sure the data being pulled in and being outputted was how we expected it to be formatted and the values were within expected ranges. This was especially important because the auto deployment solution meant less manual checking / testing than when a project is usually updated.
@@ -372,26 +419,6 @@
         	            </li>
         	            <li class="portfolio-item webdevelopment webdesign">
         	                <div class="portfolio-item--container no-js">
-        	                    <img src=./assets/img/ktc.png class="portfolio-item--img" loading="lazy" alt="">
-        	                    <h3 class="portfolio-item--title">Kemp Town Carnival website</h3>
-        	                    <p class="portfolio-item--description">Wordpress website for a much loved Brighton community event</p>
-        	                    <details class="portfolio-item--details">
-        	                      <summary>Find out more</summary>
-        	                      <div class="details--container">
-        	                        <img src=./assets/img/mockUps/ktc.png class="details--mockup-img" loading="lazy" alt="">
-        	                            <p>
-        	                              Kemp Town Carnival is a Brighton based free community event. I was asked to redesign the existing WordPress site, to make it easier for the team to update and to make it more aesthetically engaging for users visiting the site. I worked closesly with Mat, the organiser, alongside a designer and digital marketer, to discuss how we felt the site should be laid out.
-        	                            </p>
-        	                            <p>
-        	                              I had a very short period of time to build the new site, so I opted to use the existing WordPress site but change the theme, add a variety of plugins and write a significant amount of custom CSS and JavaScript. The team were very pleased with the website I produced, which included all the features we had wanted initially - a latest news page, a 'subscribe to newsletter' widget and a design which is unified with other products associated with the event.
-        	                            </p>
-        	                          <a class="portfolio-item--link" href=http://kemptowncarnival.com/>See the project</a>
-        	                      </div>
-        	                    </details>
-        	                </div>
-        	            </li>
-        	            <li class="portfolio-item webdevelopment webdesign">
-        	                <div class="portfolio-item--container no-js">
         	                    <img src=./assets/img/liz-eeles.png class="portfolio-item--img" loading="lazy" alt="">
         	                    <h3 class="portfolio-item--title">Liz Eeles website</h3>
         	                    <p class="portfolio-item--description">Wordpress website for a romance author, Liz Eeles</p>
@@ -424,6 +451,9 @@
                       </p>
                         <ul class="writing">
                             <li>
+                              <a href=https://medium.com/@bbc_visual_and_data_journalism/how-much-warmer-is-your-city-behind-the-scenes-of-our-climate-change-interactive-7d97673b8121>How much warmer is your city? Behind the scenes of our climate change interactive</a>
+                            </li>
+                            <li>
                               <a href=https://medium.com/@rushlet/a-visual-analysis-of-uk-number-1s-2cf6ae2a1602>A visual analysis of UK number 1s</a>
                             </li>
                             <li>
@@ -433,15 +463,6 @@
                     </div>
                     <div class="speakings">
                       <h3>Speakings</h3>
-                      <p>I'm excited to be speaking at...</p>
-                        <ul class="speaking">
-                            <li>
-                              <a href=>{ develop: BBC }</a> <date class="date">30/03/2020</date>
-                            </li>
-                            <li>
-                              <a href=https://www.women-in-technology.com/agenda?searchtitle&#x3D;205&amp;searchday&#x3D;2>Women of Silicon Roundabout</a> <date class="date">21/01/2020</date>
-                            </li>
-                        </ul>
                       <p>
                         I've had the pleasure of speaking at...
                       </p>

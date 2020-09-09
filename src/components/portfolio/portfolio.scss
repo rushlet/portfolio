@@ -96,7 +96,7 @@ details:hover {
 }
 
 .details--container {
-  width: 92vw;
+  width: 100vw;
   display: block;
   overflow: hidden;
   position: absolute;
@@ -104,6 +104,7 @@ details:hover {
   right: 0;
   padding-top: 1rem;
   background-color: $background;
+  pointer-events: none;
 
   @media (min-width: $breakpoint) {
       margin-top: 3em;
@@ -142,5 +143,5 @@ details:hover {
 
 .no-js .details--container {
   height: 50em;
-  overflow: scroll;
+  overflow-y: scroll;
 }

@@ -276,9 +276,6 @@ input[type=radio]:checked + li {
 .no-js details[open] {
   margin-bottom: 52em; }
 
-.no-js .details--container {
-  overflow-y: scroll; }
-
 details:hover {
   cursor: pointer; }
 
@@ -320,7 +317,7 @@ details:hover {
 
 .no-js .details--container {
   height: 50em;
-  overflow: scroll; }
+  overflow-y: scroll; }
 
 .writing-speaking-wrapper {
   max-width: 99%;

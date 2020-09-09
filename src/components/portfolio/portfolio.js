@@ -1,6 +1,5 @@
 class Portfolio {
     constructor() {
-        console.log('constructing');
         this.filters = document.querySelectorAll('.filter-input');
         this.portfolioItems = document.querySelectorAll('.portfolio-item');
         this.filters.forEach((filter) => filter.addEventListener('change', this.filterItems.bind(this)));
@@ -14,7 +13,6 @@ class Portfolio {
 
     filterItems() {
         const selectedFilter = this.getSelectedFilter();
-        console.log('selected filter: ', selectedFilter);
         this.portfolioItems.forEach((item) => {
             (selectedFilter === 'all' || item.classList.contains(selectedFilter)) ? item.classList.remove('hide') : item.classList.add('hide');
         });
@@ -29,7 +27,6 @@ class Portfolio {
             // calculate height of content & add this as margin to detail el
             setTimeout(() => {
               const height = targetDetail.querySelector('.details--container').offsetHeight;
-              console.log('height:', height);
               targetDetail.style.marginBottom = `${height + 24}px`;
             }, 100);
           }

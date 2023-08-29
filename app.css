@@ -54,9 +54,9 @@ h2 {
 }
 
 p {
-  max-width: 33em;
+  max-width: calc(100vw - 4rem);
   margin: auto;
-  text-align: left;
+  text-align: center;
 }
 
 a {
